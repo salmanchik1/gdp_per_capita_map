@@ -89,7 +89,7 @@ if __name__ == "__main__":
 
     # Geocode the countries
     gdp_df = geocode_countries(gdp_df)
-    gdp_df.dropna(subset=["Latitude", "Longitude"], inplace=True) # Remove rows with missing corrdinates
+    gdp_df.dropna(subset=["Latitude", "Longitude"], inplace=True) # Remove rows with missing coordinates
 
     # Create the map
     gdp_map = create_map(gdp_df)
