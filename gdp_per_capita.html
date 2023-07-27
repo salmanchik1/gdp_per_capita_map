@@ -1,0 +1,4458 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_603ed10c2b35c12c30c36ff5d339dae0 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_603ed10c2b35c12c30c36ff5d339dae0" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_603ed10c2b35c12c30c36ff5d339dae0 = L.map(
+                "map_603ed10c2b35c12c30c36ff5d339dae0",
+                {
+                    center: [19.473372509330144, 15.210351869803963],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 3,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_d8e2e1d1d5838b37e3c763d30d21760c = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+            var marker_f718bb3fd1b73b6cd0e3770885886121 = L.marker(
+                [33.7680065, 66.2385139],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_2ba42931dff98f56b94f41562a2e6275 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ed4aa4af80c1d9e17f32b7e325002126 = $(`<div id="html_ed4aa4af80c1d9e17f32b7e325002126" style="width: 100.0%; height: 100.0%;">Afghanistan - GDP per Capita: nan</div>`)[0];
+                popup_2ba42931dff98f56b94f41562a2e6275.setContent(html_ed4aa4af80c1d9e17f32b7e325002126);
+            
+        
+
+        marker_f718bb3fd1b73b6cd0e3770885886121.bindPopup(popup_2ba42931dff98f56b94f41562a2e6275)
+        ;
+
+        
+    
+    
+            var marker_9b47ba3feb12e361876f8cd7e4e7b019 = L.marker(
+                [41.000028, 19.9999619],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_e280701e59ae32e6708448d607560518 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f0bae046dcb0d8894e129ca89622bde0 = $(`<div id="html_f0bae046dcb0d8894e129ca89622bde0" style="width: 100.0%; height: 100.0%;">Albania - GDP per Capita: 6802.80451885113</div>`)[0];
+                popup_e280701e59ae32e6708448d607560518.setContent(html_f0bae046dcb0d8894e129ca89622bde0);
+            
+        
+
+        marker_9b47ba3feb12e361876f8cd7e4e7b019.bindPopup(popup_e280701e59ae32e6708448d607560518)
+        ;
+
+        
+    
+    
+            var marker_c0be005c5d2235e57b96be5b9e3253af = L.marker(
+                [28.0000272, 2.9999825],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_6d84d788cdf02f836d645cb6c1071b74 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0e23b5cd929c8428df95cb3f6a8d3506 = $(`<div id="html_0e23b5cd929c8428df95cb3f6a8d3506" style="width: 100.0%; height: 100.0%;">Algeria - GDP per Capita: 4273.92218311515</div>`)[0];
+                popup_6d84d788cdf02f836d645cb6c1071b74.setContent(html_0e23b5cd929c8428df95cb3f6a8d3506);
+            
+        
+
+        marker_c0be005c5d2235e57b96be5b9e3253af.bindPopup(popup_6d84d788cdf02f836d645cb6c1071b74)
+        ;
+
+        
+    
+    
+            var marker_392c2018f3fb6262c78b139ce4e925ec = L.marker(
+                [-14.297124, -170.7131481],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_fff138cf9644ce473cee5fd15c12a940 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_24e12ed60f778b5fb2cb01ee06022832 = $(`<div id="html_24e12ed60f778b5fb2cb01ee06022832" style="width: 100.0%; height: 100.0%;">American Samoa - GDP per Capita: nan</div>`)[0];
+                popup_fff138cf9644ce473cee5fd15c12a940.setContent(html_24e12ed60f778b5fb2cb01ee06022832);
+            
+        
+
+        marker_392c2018f3fb6262c78b139ce4e925ec.bindPopup(popup_fff138cf9644ce473cee5fd15c12a940)
+        ;
+
+        
+    
+    
+            var marker_79e1496ac6e70955b62bc90ef50645d5 = L.marker(
+                [42.5407167, 1.5732033],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_078c77efecbbbfc08d89a0c7a8b2533d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7dac505155de90c48a822889d35e0373 = $(`<div id="html_7dac505155de90c48a822889d35e0373" style="width: 100.0%; height: 100.0%;">Andorra - GDP per Capita: 41992.7933583772</div>`)[0];
+                popup_078c77efecbbbfc08d89a0c7a8b2533d.setContent(html_7dac505155de90c48a822889d35e0373);
+            
+        
+
+        marker_79e1496ac6e70955b62bc90ef50645d5.bindPopup(popup_078c77efecbbbfc08d89a0c7a8b2533d)
+        ;
+
+        
+    
+    
+            var marker_5c397d527f7fcbe1d74440990ad30425 = L.marker(
+                [-11.8775768, 17.5691241],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_d8ef1a12a2d0cc59ea50e99221258f19 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bbe34768372bd916208965b5759bdf77 = $(`<div id="html_bbe34768372bd916208965b5759bdf77" style="width: 100.0%; height: 100.0%;">Angola - GDP per Capita: 2998.50115810921</div>`)[0];
+                popup_d8ef1a12a2d0cc59ea50e99221258f19.setContent(html_bbe34768372bd916208965b5759bdf77);
+            
+        
+
+        marker_5c397d527f7fcbe1d74440990ad30425.bindPopup(popup_d8ef1a12a2d0cc59ea50e99221258f19)
+        ;
+
+        
+    
+    
+            var marker_0592a6478d55ca5045dde6786e2ba808 = L.marker(
+                [17.2234721, -61.9554608],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_23e0c50e1cfe3f60d6c6f0c35bc9ef32 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_869929ae48ff14c2c213813df29eeedb = $(`<div id="html_869929ae48ff14c2c213813df29eeedb" style="width: 100.0%; height: 100.0%;">Antigua and Barbuda - GDP per Capita: 18745.1735087796</div>`)[0];
+                popup_23e0c50e1cfe3f60d6c6f0c35bc9ef32.setContent(html_869929ae48ff14c2c213813df29eeedb);
+            
+        
+
+        marker_0592a6478d55ca5045dde6786e2ba808.bindPopup(popup_23e0c50e1cfe3f60d6c6f0c35bc9ef32)
+        ;
+
+        
+    
+    
+            var marker_b0f77f3ae68949953fd5ed9a56b1ce34 = L.marker(
+                [-34.9964963, -64.9672817],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_e6e63c336d95a627d2fe12bee35384de = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1a9bf280f936ac81072e3ab3f030ac57 = $(`<div id="html_1a9bf280f936ac81072e3ab3f030ac57" style="width: 100.0%; height: 100.0%;">Argentina - GDP per Capita: 13686.0086737317</div>`)[0];
+                popup_e6e63c336d95a627d2fe12bee35384de.setContent(html_1a9bf280f936ac81072e3ab3f030ac57);
+            
+        
+
+        marker_b0f77f3ae68949953fd5ed9a56b1ce34.bindPopup(popup_e6e63c336d95a627d2fe12bee35384de)
+        ;
+
+        
+    
+    
+            var marker_e03be4f917b5030a711db03808cf8c4d = L.marker(
+                [40.7696272, 44.6736646],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_dac404468d5f39c93d7f406757df66a5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6765216d6af47cf9c1a8fe2e8489c26e = $(`<div id="html_6765216d6af47cf9c1a8fe2e8489c26e" style="width: 100.0%; height: 100.0%;">Armenia - GDP per Capita: 7014.20659172274</div>`)[0];
+                popup_dac404468d5f39c93d7f406757df66a5.setContent(html_6765216d6af47cf9c1a8fe2e8489c26e);
+            
+        
+
+        marker_e03be4f917b5030a711db03808cf8c4d.bindPopup(popup_dac404468d5f39c93d7f406757df66a5)
+        ;
+
+        
+    
+    
+            var marker_5d11f4e2e62fe00c4182d8297d22d029 = L.marker(
+                [12.51756625, -69.98186415210564],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_d24a89a054d236103f62122d4e57a665 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0aeff8d421f4869b0c56e78eb9db7318 = $(`<div id="html_0aeff8d421f4869b0c56e78eb9db7318" style="width: 100.0%; height: 100.0%;">Aruba - GDP per Capita: nan</div>`)[0];
+                popup_d24a89a054d236103f62122d4e57a665.setContent(html_0aeff8d421f4869b0c56e78eb9db7318);
+            
+        
+
+        marker_5d11f4e2e62fe00c4182d8297d22d029.bindPopup(popup_d24a89a054d236103f62122d4e57a665)
+        ;
+
+        
+    
+    
+            var marker_3f8d7d50434e9e89d7a3ecfe4c881fde = L.marker(
+                [-24.7761086, 134.755],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_e007d4e0ff5e28bdbceac96d922a2f25 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5920685346754ff0eabf6e64dcb60ea7 = $(`<div id="html_5920685346754ff0eabf6e64dcb60ea7" style="width: 100.0%; height: 100.0%;">Australia - GDP per Capita: 64491.4298860631</div>`)[0];
+                popup_e007d4e0ff5e28bdbceac96d922a2f25.setContent(html_5920685346754ff0eabf6e64dcb60ea7);
+            
+        
+
+        marker_3f8d7d50434e9e89d7a3ecfe4c881fde.bindPopup(popup_e007d4e0ff5e28bdbceac96d922a2f25)
+        ;
+
+        
+    
+    
+            var marker_0156a6881f2d500c1d6ab099b5569d1b = L.marker(
+                [47.59397, 14.12456],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_28fd632aaaffb882762a4790270a0269 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c21f4d710fa1ab910ea08af90166af2b = $(`<div id="html_c21f4d710fa1ab910ea08af90166af2b" style="width: 100.0%; height: 100.0%;">Austria - GDP per Capita: 52131.4466586387</div>`)[0];
+                popup_28fd632aaaffb882762a4790270a0269.setContent(html_c21f4d710fa1ab910ea08af90166af2b);
+            
+        
+
+        marker_0156a6881f2d500c1d6ab099b5569d1b.bindPopup(popup_28fd632aaaffb882762a4790270a0269)
+        ;
+
+        
+    
+    
+            var marker_dc6eda9866d54fffb212b2180b4b27d9 = L.marker(
+                [40.3936294, 47.7872508],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_639764f0822a07e6aa8f12944bca1a57 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_77798d45aa846a8878044e671f665c70 = $(`<div id="html_77798d45aa846a8878044e671f665c70" style="width: 100.0%; height: 100.0%;">Azerbaijan - GDP per Capita: 7736.70123206975</div>`)[0];
+                popup_639764f0822a07e6aa8f12944bca1a57.setContent(html_77798d45aa846a8878044e671f665c70);
+            
+        
+
+        marker_dc6eda9866d54fffb212b2180b4b27d9.bindPopup(popup_639764f0822a07e6aa8f12944bca1a57)
+        ;
+
+        
+    
+    
+            var marker_cae3b50c36a4f5ceba2184e2a87a79fe = L.marker(
+                [38.91153185, -77.04983813278284],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_ccbc680a6dd5db39218c27d6810a1599 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_69b1a2f682c4c44db397136349d7e301 = $(`<div id="html_69b1a2f682c4c44db397136349d7e301" style="width: 100.0%; height: 100.0%;">Bahamas, The - GDP per Capita: 31458.300811739</div>`)[0];
+                popup_ccbc680a6dd5db39218c27d6810a1599.setContent(html_69b1a2f682c4c44db397136349d7e301);
+            
+        
+
+        marker_cae3b50c36a4f5ceba2184e2a87a79fe.bindPopup(popup_ccbc680a6dd5db39218c27d6810a1599)
+        ;
+
+        
+    
+    
+            var marker_273f576cc74270e78ffd5899f3cd81bc = L.marker(
+                [26.1551249, 50.5344606],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_62db79810ca8b5aff13baff606a621f2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_de224fbf73a03166afcb2da890a7cb2e = $(`<div id="html_de224fbf73a03166afcb2da890a7cb2e" style="width: 100.0%; height: 100.0%;">Bahrain - GDP per Capita: 30152.0346838601</div>`)[0];
+                popup_62db79810ca8b5aff13baff606a621f2.setContent(html_de224fbf73a03166afcb2da890a7cb2e);
+            
+        
+
+        marker_273f576cc74270e78ffd5899f3cd81bc.bindPopup(popup_62db79810ca8b5aff13baff606a621f2)
+        ;
+
+        
+    
+    
+            var marker_6e32766789c622792dca9c17bb3ade1d = L.marker(
+                [24.4769288, 90.2934413],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_ba6fb95571ae68fdd1399d738a6bd72c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_be75aa7331c619466086d141534a1b78 = $(`<div id="html_be75aa7331c619466086d141534a1b78" style="width: 100.0%; height: 100.0%;">Bangladesh - GDP per Capita: 2688.30395035828</div>`)[0];
+                popup_ba6fb95571ae68fdd1399d738a6bd72c.setContent(html_be75aa7331c619466086d141534a1b78);
+            
+        
+
+        marker_6e32766789c622792dca9c17bb3ade1d.bindPopup(popup_ba6fb95571ae68fdd1399d738a6bd72c)
+        ;
+
+        
+    
+    
+            var marker_72e24fb308190517b86bb0babeebf1fd = L.marker(
+                [13.1500331, -59.5250305],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_1c72cadfb437bc52b8ebfff04fd413e2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_14baf4695dcb70a84c14295fc52c7f67 = $(`<div id="html_14baf4695dcb70a84c14295fc52c7f67" style="width: 100.0%; height: 100.0%;">Barbados - GDP per Capita: 20018.5151513054</div>`)[0];
+                popup_1c72cadfb437bc52b8ebfff04fd413e2.setContent(html_14baf4695dcb70a84c14295fc52c7f67);
+            
+        
+
+        marker_72e24fb308190517b86bb0babeebf1fd.bindPopup(popup_1c72cadfb437bc52b8ebfff04fd413e2)
+        ;
+
+        
+    
+    
+            var marker_e43f63740df6d43e8ddc23b2cce0dfd6 = L.marker(
+                [53.4250605, 27.6971358],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_3389788d097fd14f45a92bf753ef3699 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e485163777873d5b50c83e22ef7d8980 = $(`<div id="html_e485163777873d5b50c83e22ef7d8980" style="width: 100.0%; height: 100.0%;">Belarus - GDP per Capita: 7904.85624285517</div>`)[0];
+                popup_3389788d097fd14f45a92bf753ef3699.setContent(html_e485163777873d5b50c83e22ef7d8980);
+            
+        
+
+        marker_e43f63740df6d43e8ddc23b2cce0dfd6.bindPopup(popup_3389788d097fd14f45a92bf753ef3699)
+        ;
+
+        
+    
+    
+            var marker_40a8eacd850506b0dee9f13f95462b88 = L.marker(
+                [50.6402809, 4.6667145],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_bf99abd04e9299d9a5873e101eb7d1db = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_078d69d7d6296c20b8644ce456b48fe5 = $(`<div id="html_078d69d7d6296c20b8644ce456b48fe5" style="width: 100.0%; height: 100.0%;">Belgium - GDP per Capita: 49582.8253649187</div>`)[0];
+                popup_bf99abd04e9299d9a5873e101eb7d1db.setContent(html_078d69d7d6296c20b8644ce456b48fe5);
+            
+        
+
+        marker_40a8eacd850506b0dee9f13f95462b88.bindPopup(popup_bf99abd04e9299d9a5873e101eb7d1db)
+        ;
+
+        
+    
+    
+            var marker_124f0033ac34fc6c1d0a28d52c2b7499 = L.marker(
+                [16.8259793, -88.7600927],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_933cd708ee979b7e67929f25e6ab93b2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f5ec770dff98f185e88af3ab0bd548ef = $(`<div id="html_f5ec770dff98f185e88af3ab0bd548ef" style="width: 100.0%; height: 100.0%;">Belize - GDP per Capita: 6968.36158480889</div>`)[0];
+                popup_933cd708ee979b7e67929f25e6ab93b2.setContent(html_f5ec770dff98f185e88af3ab0bd548ef);
+            
+        
+
+        marker_124f0033ac34fc6c1d0a28d52c2b7499.bindPopup(popup_933cd708ee979b7e67929f25e6ab93b2)
+        ;
+
+        
+    
+    
+            var marker_418c922bcd114b5db1d44648162bc06e = L.marker(
+                [9.5293472, 2.2584408],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_927faf1159618736a28228fdb6ed447a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_db3193a3a22d19786b0109f820a6e0a2 = $(`<div id="html_db3193a3a22d19786b0109f820a6e0a2" style="width: 100.0%; height: 100.0%;">Benin - GDP per Capita: 1303.22201358944</div>`)[0];
+                popup_927faf1159618736a28228fdb6ed447a.setContent(html_db3193a3a22d19786b0109f820a6e0a2);
+            
+        
+
+        marker_418c922bcd114b5db1d44648162bc06e.bindPopup(popup_927faf1159618736a28228fdb6ed447a)
+        ;
+
+        
+    
+    
+            var marker_b9a12b04e9b37a26d8a89da88b7af584 = L.marker(
+                [32.30382, -64.7561647],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_8db5b8c2621bea13b1035e03ddafedf5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fed8df3dd6b1b22038dbc41214894e1b = $(`<div id="html_fed8df3dd6b1b22038dbc41214894e1b" style="width: 100.0%; height: 100.0%;">Bermuda - GDP per Capita: 118845.621104325</div>`)[0];
+                popup_8db5b8c2621bea13b1035e03ddafedf5.setContent(html_fed8df3dd6b1b22038dbc41214894e1b);
+            
+        
+
+        marker_b9a12b04e9b37a26d8a89da88b7af584.bindPopup(popup_8db5b8c2621bea13b1035e03ddafedf5)
+        ;
+
+        
+    
+    
+            var marker_9d3463cf9110ce66fe96c1709c93455d = L.marker(
+                [27.549511, 90.5119273],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_b654db264bee76f99fadd3ea81a53bd6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e8c8dba9627b00b0f0115e1c0e7ec739 = $(`<div id="html_e8c8dba9627b00b0f0115e1c0e7ec739" style="width: 100.0%; height: 100.0%;">Bhutan - GDP per Capita: nan</div>`)[0];
+                popup_b654db264bee76f99fadd3ea81a53bd6.setContent(html_e8c8dba9627b00b0f0115e1c0e7ec739);
+            
+        
+
+        marker_9d3463cf9110ce66fe96c1709c93455d.bindPopup(popup_b654db264bee76f99fadd3ea81a53bd6)
+        ;
+
+        
+    
+    
+            var marker_5e1618af146cd221be35a9306db70710 = L.marker(
+                [-17.0568696, -64.9912286],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_c0c0f339df8b7ae278cc104293a8736e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_12cef37bfdb41300898e039f79f15faf = $(`<div id="html_12cef37bfdb41300898e039f79f15faf" style="width: 100.0%; height: 100.0%;">Bolivia - GDP per Capita: 3523.27373305196</div>`)[0];
+                popup_c0c0f339df8b7ae278cc104293a8736e.setContent(html_12cef37bfdb41300898e039f79f15faf);
+            
+        
+
+        marker_5e1618af146cd221be35a9306db70710.bindPopup(popup_c0c0f339df8b7ae278cc104293a8736e)
+        ;
+
+        
+    
+    
+            var marker_b2db2a945fef3f9e8dfb13d98df27d6c = L.marker(
+                [44.3053476, 17.5961467],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_4bbb02a121cc042651b00d8d8d7f349f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aa386be7aa4f131a2d4396924fc6a0fc = $(`<div id="html_aa386be7aa4f131a2d4396924fc6a0fc" style="width: 100.0%; height: 100.0%;">Bosnia and Herzegovina - GDP per Capita: 7585.37500171521</div>`)[0];
+                popup_4bbb02a121cc042651b00d8d8d7f349f.setContent(html_aa386be7aa4f131a2d4396924fc6a0fc);
+            
+        
+
+        marker_b2db2a945fef3f9e8dfb13d98df27d6c.bindPopup(popup_4bbb02a121cc042651b00d8d8d7f349f)
+        ;
+
+        
+    
+    
+            var marker_4c1ad17da3956530756e62cbe1ca2c32 = L.marker(
+                [-23.1681782, 24.5928742],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_1ae0f1eb73aeb112567cb5c32a5291af = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a2569c2803c410fb37b0775a3cbc8a6e = $(`<div id="html_a2569c2803c410fb37b0775a3cbc8a6e" style="width: 100.0%; height: 100.0%;">Botswana - GDP per Capita: 7737.65468112589</div>`)[0];
+                popup_1ae0f1eb73aeb112567cb5c32a5291af.setContent(html_a2569c2803c410fb37b0775a3cbc8a6e);
+            
+        
+
+        marker_4c1ad17da3956530756e62cbe1ca2c32.bindPopup(popup_1ae0f1eb73aeb112567cb5c32a5291af)
+        ;
+
+        
+    
+    
+            var marker_3e4df347c0f33e5ba7fcc462f2c25b81 = L.marker(
+                [-10.3333333, -53.2],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_adce90f1b73d139221aa4f6ef2ef44b1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4ecf49357810934ac6636690cabc736c = $(`<div id="html_4ecf49357810934ac6636690cabc736c" style="width: 100.0%; height: 100.0%;">Brazil - GDP per Capita: 8917.67389796927</div>`)[0];
+                popup_adce90f1b73d139221aa4f6ef2ef44b1.setContent(html_4ecf49357810934ac6636690cabc736c);
+            
+        
+
+        marker_3e4df347c0f33e5ba7fcc462f2c25b81.bindPopup(popup_adce90f1b73d139221aa4f6ef2ef44b1)
+        ;
+
+        
+    
+    
+            var marker_5d174feb4bcb6cd7f6a104f9cc5db4d7 = L.marker(
+                [18.4024395, -64.5661642],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_b77062db106ec52ab1406d9b12bfe050 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e0e2630be922dd3a1a0697b7a2bd31a7 = $(`<div id="html_e0e2630be922dd3a1a0697b7a2bd31a7" style="width: 100.0%; height: 100.0%;">British Virgin Islands - GDP per Capita: nan</div>`)[0];
+                popup_b77062db106ec52ab1406d9b12bfe050.setContent(html_e0e2630be922dd3a1a0697b7a2bd31a7);
+            
+        
+
+        marker_5d174feb4bcb6cd7f6a104f9cc5db4d7.bindPopup(popup_b77062db106ec52ab1406d9b12bfe050)
+        ;
+
+        
+    
+    
+            var marker_be824bf8f85e0ebe8d34c5c2899b0156 = L.marker(
+                [4.4137155, 114.5653908],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_102cdf14b48459355b4a82664ce2b729 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b77184361153ef816b9cacc9e29386c3 = $(`<div id="html_b77184361153ef816b9cacc9e29386c3" style="width: 100.0%; height: 100.0%;">Brunei Darussalam - GDP per Capita: 37152.4662378669</div>`)[0];
+                popup_102cdf14b48459355b4a82664ce2b729.setContent(html_b77184361153ef816b9cacc9e29386c3);
+            
+        
+
+        marker_be824bf8f85e0ebe8d34c5c2899b0156.bindPopup(popup_102cdf14b48459355b4a82664ce2b729)
+        ;
+
+        
+    
+    
+            var marker_660c1fa5657733a8de46228dbf718065 = L.marker(
+                [42.6073975, 25.4856617],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_df97a6aeada263e84a24f9c5975382ba = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_10d598ee0a3679143ef061664a6282b3 = $(`<div id="html_10d598ee0a3679143ef061664a6282b3" style="width: 100.0%; height: 100.0%;">Bulgaria - GDP per Capita: 13772.476794451</div>`)[0];
+                popup_df97a6aeada263e84a24f9c5975382ba.setContent(html_10d598ee0a3679143ef061664a6282b3);
+            
+        
+
+        marker_660c1fa5657733a8de46228dbf718065.bindPopup(popup_df97a6aeada263e84a24f9c5975382ba)
+        ;
+
+        
+    
+    
+            var marker_2dc0576d16ec31b52ca69e2812f51fee = L.marker(
+                [12.0753083, -1.6880314],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_ad433014fd648cd45d633f0663c00522 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f51d0e1cfef459850f9f32a4a8c2e39b = $(`<div id="html_f51d0e1cfef459850f9f32a4a8c2e39b" style="width: 100.0%; height: 100.0%;">Burkina Faso - GDP per Capita: 832.884265674075</div>`)[0];
+                popup_ad433014fd648cd45d633f0663c00522.setContent(html_f51d0e1cfef459850f9f32a4a8c2e39b);
+            
+        
+
+        marker_2dc0576d16ec31b52ca69e2812f51fee.bindPopup(popup_ad433014fd648cd45d633f0663c00522)
+        ;
+
+        
+    
+    
+            var marker_bfea0f4b350981603f67373a6db88df9 = L.marker(
+                [-3.426449, 29.9324519],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_ef5100d233cd476af0bf94cd0bdb7dad = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_98e21a5ec700ad8f80c35ad33a02bba8 = $(`<div id="html_98e21a5ec700ad8f80c35ad33a02bba8" style="width: 100.0%; height: 100.0%;">Burundi - GDP per Capita: 238.44187565548</div>`)[0];
+                popup_ef5100d233cd476af0bf94cd0bdb7dad.setContent(html_98e21a5ec700ad8f80c35ad33a02bba8);
+            
+        
+
+        marker_bfea0f4b350981603f67373a6db88df9.bindPopup(popup_ef5100d233cd476af0bf94cd0bdb7dad)
+        ;
+
+        
+    
+    
+            var marker_0e985064521533729aa40312fa6ee2cb = L.marker(
+                [16.0000552, -24.0083947],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_b691b85146acce819d6d5ffb97ad3a0d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f7fba0dee822e8acb6b323b9ec8d2481 = $(`<div id="html_f7fba0dee822e8acb6b323b9ec8d2481" style="width: 100.0%; height: 100.0%;">Cabo Verde - GDP per Capita: 3902.58904940059</div>`)[0];
+                popup_b691b85146acce819d6d5ffb97ad3a0d.setContent(html_f7fba0dee822e8acb6b323b9ec8d2481);
+            
+        
+
+        marker_0e985064521533729aa40312fa6ee2cb.bindPopup(popup_b691b85146acce819d6d5ffb97ad3a0d)
+        ;
+
+        
+    
+    
+            var marker_46e5123d376aff260b94be4f5408bc8b = L.marker(
+                [12.5433216, 104.8144914],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_78e0815ebb67861ea81ae2b05cb936ad = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6d29fb008c8d52bbcd17390e2ad1a665 = $(`<div id="html_6d29fb008c8d52bbcd17390e2ad1a665" style="width: 100.0%; height: 100.0%;">Cambodia - GDP per Capita: 1786.56081858524</div>`)[0];
+                popup_78e0815ebb67861ea81ae2b05cb936ad.setContent(html_6d29fb008c8d52bbcd17390e2ad1a665);
+            
+        
+
+        marker_46e5123d376aff260b94be4f5408bc8b.bindPopup(popup_78e0815ebb67861ea81ae2b05cb936ad)
+        ;
+
+        
+    
+    
+            var marker_8ce48cc5c8d8f80a83b12f6b87f0ad75 = L.marker(
+                [4.6125522, 13.1535811],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_38510351bd9f77d2e5d96480df2b2d84 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_57a986194ed8f01976f543250b6cfc98 = $(`<div id="html_57a986194ed8f01976f543250b6cfc98" style="width: 100.0%; height: 100.0%;">Cameroon - GDP per Capita: 1588.47872338696</div>`)[0];
+                popup_38510351bd9f77d2e5d96480df2b2d84.setContent(html_57a986194ed8f01976f543250b6cfc98);
+            
+        
+
+        marker_8ce48cc5c8d8f80a83b12f6b87f0ad75.bindPopup(popup_38510351bd9f77d2e5d96480df2b2d84)
+        ;
+
+        
+    
+    
+            var marker_9d1eed37e9291aad424fe6267cdeffc1 = L.marker(
+                [61.0666922, -107.991707],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_aa162a955419d1040f3dd0094cc4dbd7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9eef6a3a860f87db5ebefe734411501b = $(`<div id="html_9eef6a3a860f87db5ebefe734411501b" style="width: 100.0%; height: 100.0%;">Canada - GDP per Capita: 54966.4888361088</div>`)[0];
+                popup_aa162a955419d1040f3dd0094cc4dbd7.setContent(html_9eef6a3a860f87db5ebefe734411501b);
+            
+        
+
+        marker_9d1eed37e9291aad424fe6267cdeffc1.bindPopup(popup_aa162a955419d1040f3dd0094cc4dbd7)
+        ;
+
+        
+    
+    
+            var marker_330eb0cadc5f183e2647576f5285db98 = L.marker(
+                [19.703182249999998, -79.9174627243246],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_03b0904637fe4456da65851614f54f10 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_64d720d3d2c2f985ee79339d5939360c = $(`<div id="html_64d720d3d2c2f985ee79339d5939360c" style="width: 100.0%; height: 100.0%;">Cayman Islands - GDP per Capita: nan</div>`)[0];
+                popup_03b0904637fe4456da65851614f54f10.setContent(html_64d720d3d2c2f985ee79339d5939360c);
+            
+        
+
+        marker_330eb0cadc5f183e2647576f5285db98.bindPopup(popup_03b0904637fe4456da65851614f54f10)
+        ;
+
+        
+    
+    
+            var marker_171cf9d4282d4e974d8bc99d284d4e79 = L.marker(
+                [7.0323598, 19.9981227],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_c773f098b767092a77a003256a5b138d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8c874cd802b6a85124b8e37cb0d38b77 = $(`<div id="html_8c874cd802b6a85124b8e37cb0d38b77" style="width: 100.0%; height: 100.0%;">Central African Republic - GDP per Capita: 427.058096252078</div>`)[0];
+                popup_c773f098b767092a77a003256a5b138d.setContent(html_8c874cd802b6a85124b8e37cb0d38b77);
+            
+        
+
+        marker_171cf9d4282d4e974d8bc99d284d4e79.bindPopup(popup_c773f098b767092a77a003256a5b138d)
+        ;
+
+        
+    
+    
+            var marker_1c1ac86649d57efcf8b6cd4ec31a917f = L.marker(
+                [15.6134137, 19.0156172],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_cd36841c193266c933abb7f672efc3e0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3a91210bab0e6621b33d92f6f1f48b4a = $(`<div id="html_3a91210bab0e6621b33d92f6f1f48b4a" style="width: 100.0%; height: 100.0%;">Chad - GDP per Capita: 716.804381236651</div>`)[0];
+                popup_cd36841c193266c933abb7f672efc3e0.setContent(html_3a91210bab0e6621b33d92f6f1f48b4a);
+            
+        
+
+        marker_1c1ac86649d57efcf8b6cd4ec31a917f.bindPopup(popup_cd36841c193266c933abb7f672efc3e0)
+        ;
+
+        
+    
+    
+            var marker_b932c6451c601a00138fcd0bd8ffa759 = L.marker(
+                [49.21230655, -2.1255999596428845],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_215f625d894d8927402563542737d14f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_33102c2d22f33f3a4c16b8e82ae7899d = $(`<div id="html_33102c2d22f33f3a4c16b8e82ae7899d" style="width: 100.0%; height: 100.0%;">Channel Islands - GDP per Capita: nan</div>`)[0];
+                popup_215f625d894d8927402563542737d14f.setContent(html_33102c2d22f33f3a4c16b8e82ae7899d);
+            
+        
+
+        marker_b932c6451c601a00138fcd0bd8ffa759.bindPopup(popup_215f625d894d8927402563542737d14f)
+        ;
+
+        
+    
+    
+            var marker_26421c695d2702a865e76f3622333e02 = L.marker(
+                [-31.7613365, -71.3187697],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_c10d4e3231a04eddfec567d63e26eb44 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b73548fa985f37632a64bb3f888e6fc6 = $(`<div id="html_b73548fa985f37632a64bb3f888e6fc6" style="width: 100.0%; height: 100.0%;">Chile - GDP per Capita: 15355.5064965406</div>`)[0];
+                popup_c10d4e3231a04eddfec567d63e26eb44.setContent(html_b73548fa985f37632a64bb3f888e6fc6);
+            
+        
+
+        marker_26421c695d2702a865e76f3622333e02.bindPopup(popup_c10d4e3231a04eddfec567d63e26eb44)
+        ;
+
+        
+    
+    
+            var marker_a469fdca0d4d9da8adceab3f774fedb5 = L.marker(
+                [35.000074, 104.999927],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_82201dbdf6e52759d64e08025dc589d4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a565ebe6cd439deacc586f10d11e425c = $(`<div id="html_a565ebe6cd439deacc586f10d11e425c" style="width: 100.0%; height: 100.0%;">China - GDP per Capita: 12720.2156397612</div>`)[0];
+                popup_82201dbdf6e52759d64e08025dc589d4.setContent(html_a565ebe6cd439deacc586f10d11e425c);
+            
+        
+
+        marker_a469fdca0d4d9da8adceab3f774fedb5.bindPopup(popup_82201dbdf6e52759d64e08025dc589d4)
+        ;
+
+        
+    
+    
+            var marker_16e345a32b26720b35e3db8b0a416b0b = L.marker(
+                [4.099917, -72.9088133],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_93aacdc1cb93d4626cb0f371deafb9ac = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ac2e6ca3b983b257de504ac055ffea2a = $(`<div id="html_ac2e6ca3b983b257de504ac055ffea2a" style="width: 100.0%; height: 100.0%;">Colombia - GDP per Capita: 6630.28272608054</div>`)[0];
+                popup_93aacdc1cb93d4626cb0f371deafb9ac.setContent(html_ac2e6ca3b983b257de504ac055ffea2a);
+            
+        
+
+        marker_16e345a32b26720b35e3db8b0a416b0b.bindPopup(popup_93aacdc1cb93d4626cb0f371deafb9ac)
+        ;
+
+        
+    
+    
+            var marker_0473fdf929971e3624805c636069338d = L.marker(
+                [-12.2045176, 44.2832964],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_7a64a3941397b37ed450fe598529d555 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_849a92c072f9238ac6f999afa2338c01 = $(`<div id="html_849a92c072f9238ac6f999afa2338c01" style="width: 100.0%; height: 100.0%;">Comoros - GDP per Capita: 1484.8924647255</div>`)[0];
+                popup_7a64a3941397b37ed450fe598529d555.setContent(html_849a92c072f9238ac6f999afa2338c01);
+            
+        
+
+        marker_0473fdf929971e3624805c636069338d.bindPopup(popup_7a64a3941397b37ed450fe598529d555)
+        ;
+
+        
+    
+    
+            var marker_a3cb80b06ece8cbda816923c4e75bf19 = L.marker(
+                [10.2735633, -84.0739102],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_d2e6c22d084a61b4fd4e2983f0ba825e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a17144553e886205c0323325c81140a8 = $(`<div id="html_a17144553e886205c0323325c81140a8" style="width: 100.0%; height: 100.0%;">Costa Rica - GDP per Capita: 13198.8217168097</div>`)[0];
+                popup_d2e6c22d084a61b4fd4e2983f0ba825e.setContent(html_a17144553e886205c0323325c81140a8);
+            
+        
+
+        marker_a3cb80b06ece8cbda816923c4e75bf19.bindPopup(popup_d2e6c22d084a61b4fd4e2983f0ba825e)
+        ;
+
+        
+    
+    
+            var marker_1998316f7f327f8a27bcfd0d540d1161 = L.marker(
+                [7.9897371, -5.5679458],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_efecfd7b1afd5e64bd7208be85f22972 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ce5b6f309f4e4a739a0ee6cbc8ca93ad = $(`<div id="html_ce5b6f309f4e4a739a0ee6cbc8ca93ad" style="width: 100.0%; height: 100.0%;">Cote d'Ivoire - GDP per Capita: 2486.41219393777</div>`)[0];
+                popup_efecfd7b1afd5e64bd7208be85f22972.setContent(html_ce5b6f309f4e4a739a0ee6cbc8ca93ad);
+            
+        
+
+        marker_1998316f7f327f8a27bcfd0d540d1161.bindPopup(popup_efecfd7b1afd5e64bd7208be85f22972)
+        ;
+
+        
+    
+    
+            var marker_97c86e34a611bd649f86c9077fe194b3 = L.marker(
+                [45.3658443, 15.6575209],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_22ae90565657857d3a5d8e98418a0fea = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_24b9b29781ed4c0e156d0d3c5deeb496 = $(`<div id="html_24b9b29781ed4c0e156d0d3c5deeb496" style="width: 100.0%; height: 100.0%;">Croatia - GDP per Capita: 18413.2346820557</div>`)[0];
+                popup_22ae90565657857d3a5d8e98418a0fea.setContent(html_24b9b29781ed4c0e156d0d3c5deeb496);
+            
+        
+
+        marker_97c86e34a611bd649f86c9077fe194b3.bindPopup(popup_22ae90565657857d3a5d8e98418a0fea)
+        ;
+
+        
+    
+    
+            var marker_6303e89fef81706fe989b70720ede17f = L.marker(
+                [23.0131338, -80.8328748],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_20bc1bab354a8bcd6a46ad626b8a9982 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b1521b6c89cf035579c6520f980a5dfc = $(`<div id="html_b1521b6c89cf035579c6520f980a5dfc" style="width: 100.0%; height: 100.0%;">Cuba - GDP per Capita: nan</div>`)[0];
+                popup_20bc1bab354a8bcd6a46ad626b8a9982.setContent(html_b1521b6c89cf035579c6520f980a5dfc);
+            
+        
+
+        marker_6303e89fef81706fe989b70720ede17f.bindPopup(popup_20bc1bab354a8bcd6a46ad626b8a9982)
+        ;
+
+        
+    
+    
+            var marker_5c5184c3bf3e28cf8abec6f9dedf7926 = L.marker(
+                [12.21339425, -69.0408499890865],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_c038b630245f9d5817290d0ac1ca92ee = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3945c0ff8b913d7e2823ff641a6dd30f = $(`<div id="html_3945c0ff8b913d7e2823ff641a6dd30f" style="width: 100.0%; height: 100.0%;">Curacao - GDP per Capita: nan</div>`)[0];
+                popup_c038b630245f9d5817290d0ac1ca92ee.setContent(html_3945c0ff8b913d7e2823ff641a6dd30f);
+            
+        
+
+        marker_5c5184c3bf3e28cf8abec6f9dedf7926.bindPopup(popup_c038b630245f9d5817290d0ac1ca92ee)
+        ;
+
+        
+    
+    
+            var marker_1d39288092b506eb8620d9db4e065b18 = L.marker(
+                [34.9823018, 33.1451285],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_da0276aa269b8720a4f2f780223d1109 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fa689cbe6d155b81bd44c56d3dad3de5 = $(`<div id="html_fa689cbe6d155b81bd44c56d3dad3de5" style="width: 100.0%; height: 100.0%;">Cyprus - GDP per Capita: 31283.505859375</div>`)[0];
+                popup_da0276aa269b8720a4f2f780223d1109.setContent(html_fa689cbe6d155b81bd44c56d3dad3de5);
+            
+        
+
+        marker_1d39288092b506eb8620d9db4e065b18.bindPopup(popup_da0276aa269b8720a4f2f780223d1109)
+        ;
+
+        
+    
+    
+            var marker_348afc3750e0c037c66d7979cc2cef08 = L.marker(
+                [49.7439047, 15.3381061],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_c8a92b57b608a7ef2a4f1fcae7beb259 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_036f8b13e64116aff8f1ea1783e84abd = $(`<div id="html_036f8b13e64116aff8f1ea1783e84abd" style="width: 100.0%; height: 100.0%;">Czechia - GDP per Capita: 27638.3732756288</div>`)[0];
+                popup_c8a92b57b608a7ef2a4f1fcae7beb259.setContent(html_036f8b13e64116aff8f1ea1783e84abd);
+            
+        
+
+        marker_348afc3750e0c037c66d7979cc2cef08.bindPopup(popup_c8a92b57b608a7ef2a4f1fcae7beb259)
+        ;
+
+        
+    
+    
+            var marker_c2bf3de6cdf9bc178f704c43f70a7bda = L.marker(
+                [55.670249, 10.3333283],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_f43e3d326fac14ab3310c53dc8f36baa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6b1fbb99633c93504eaa6d3c7e06e224 = $(`<div id="html_6b1fbb99633c93504eaa6d3c7e06e224" style="width: 100.0%; height: 100.0%;">Denmark - GDP per Capita: 66983.1320017138</div>`)[0];
+                popup_f43e3d326fac14ab3310c53dc8f36baa.setContent(html_6b1fbb99633c93504eaa6d3c7e06e224);
+            
+        
+
+        marker_c2bf3de6cdf9bc178f704c43f70a7bda.bindPopup(popup_f43e3d326fac14ab3310c53dc8f36baa)
+        ;
+
+        
+    
+    
+            var marker_cbc9a9a774b8698921cea1f48dd7643c = L.marker(
+                [11.8145966, 42.8453061],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_150d031caa7d8908aa18fb30a2c82fd3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_51ef61868507ff9a2cbbd71510321000 = $(`<div id="html_51ef61868507ff9a2cbbd71510321000" style="width: 100.0%; height: 100.0%;">Djibouti - GDP per Capita: 3136.11296031934</div>`)[0];
+                popup_150d031caa7d8908aa18fb30a2c82fd3.setContent(html_51ef61868507ff9a2cbbd71510321000);
+            
+        
+
+        marker_cbc9a9a774b8698921cea1f48dd7643c.bindPopup(popup_150d031caa7d8908aa18fb30a2c82fd3)
+        ;
+
+        
+    
+    
+            var marker_12701592318b4d589ea79606b7bc6ecb = L.marker(
+                [19.0974031, -70.3028026],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_a58749b87aadf47989d3f36f7ed2d3bf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_88b62f1bf09bbc53a6ed8b11474592dd = $(`<div id="html_88b62f1bf09bbc53a6ed8b11474592dd" style="width: 100.0%; height: 100.0%;">Dominica - GDP per Capita: 8414.53659276775</div>`)[0];
+                popup_a58749b87aadf47989d3f36f7ed2d3bf.setContent(html_88b62f1bf09bbc53a6ed8b11474592dd);
+            
+        
+
+        marker_12701592318b4d589ea79606b7bc6ecb.bindPopup(popup_a58749b87aadf47989d3f36f7ed2d3bf)
+        ;
+
+        
+    
+    
+            var marker_4948c731601bf482f92882b686b2111b = L.marker(
+                [19.0974031, -70.3028026],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_9d983e2ba52ade4c7251f62e9b08545e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_940c47410a63982ca00e2509b27fa089 = $(`<div id="html_940c47410a63982ca00e2509b27fa089" style="width: 100.0%; height: 100.0%;">Dominican Republic - GDP per Capita: 10120.5511632969</div>`)[0];
+                popup_9d983e2ba52ade4c7251f62e9b08545e.setContent(html_940c47410a63982ca00e2509b27fa089);
+            
+        
+
+        marker_4948c731601bf482f92882b686b2111b.bindPopup(popup_9d983e2ba52ade4c7251f62e9b08545e)
+        ;
+
+        
+    
+    
+            var marker_7ab572a0704085a56273a5e7dd3ad5a5 = L.marker(
+                [-1.3397668, -79.3666965],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_81b1b20b0062e751c11d29119098c769 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eb92cb00d371269bc84eddcea644cd63 = $(`<div id="html_eb92cb00d371269bc84eddcea644cd63" style="width: 100.0%; height: 100.0%;">Ecuador - GDP per Capita: 6391.28248430643</div>`)[0];
+                popup_81b1b20b0062e751c11d29119098c769.setContent(html_eb92cb00d371269bc84eddcea644cd63);
+            
+        
+
+        marker_7ab572a0704085a56273a5e7dd3ad5a5.bindPopup(popup_81b1b20b0062e751c11d29119098c769)
+        ;
+
+        
+    
+    
+            var marker_688d59a65ce7e14870da7c7a046e7e06 = L.marker(
+                [13.8000382, -88.9140683],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_9bae1710abf9123e3ef2cbeda4d7bc3e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7ef6284f2d9710c13e3fd54f3e69b429 = $(`<div id="html_7ef6284f2d9710c13e3fd54f3e69b429" style="width: 100.0%; height: 100.0%;">El Salvador - GDP per Capita: 5127.32166823012</div>`)[0];
+                popup_9bae1710abf9123e3ef2cbeda4d7bc3e.setContent(html_7ef6284f2d9710c13e3fd54f3e69b429);
+            
+        
+
+        marker_688d59a65ce7e14870da7c7a046e7e06.bindPopup(popup_9bae1710abf9123e3ef2cbeda4d7bc3e)
+        ;
+
+        
+    
+    
+            var marker_4262a2839a73f3bfb12592b0a21ad1c1 = L.marker(
+                [1.613172, 10.5170357],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_cf54df352e9d2ea7e5c9bf4df370ff99 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b7b685d9069bf8fdc1429055bd7127a8 = $(`<div id="html_b7b685d9069bf8fdc1429055bd7127a8" style="width: 100.0%; height: 100.0%;">Equatorial Guinea - GDP per Capita: 7053.46708464771</div>`)[0];
+                popup_cf54df352e9d2ea7e5c9bf4df370ff99.setContent(html_b7b685d9069bf8fdc1429055bd7127a8);
+            
+        
+
+        marker_4262a2839a73f3bfb12592b0a21ad1c1.bindPopup(popup_cf54df352e9d2ea7e5c9bf4df370ff99)
+        ;
+
+        
+    
+    
+            var marker_c8ccafa03a7fbe98c31df952bf030d97 = L.marker(
+                [15.9500319, 37.9999668],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_ed0992792e17f5a07c3d782018a919fc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9905caa46de8382095d16e6996fdcdd8 = $(`<div id="html_9905caa46de8382095d16e6996fdcdd8" style="width: 100.0%; height: 100.0%;">Eritrea - GDP per Capita: nan</div>`)[0];
+                popup_ed0992792e17f5a07c3d782018a919fc.setContent(html_9905caa46de8382095d16e6996fdcdd8);
+            
+        
+
+        marker_c8ccafa03a7fbe98c31df952bf030d97.bindPopup(popup_ed0992792e17f5a07c3d782018a919fc)
+        ;
+
+        
+    
+    
+            var marker_133698d5e05fc420ba9cb3683c092174 = L.marker(
+                [58.7523778, 25.3319078],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_d367d9a3b27b8ee2299863a19e9aba99 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_538223372871ca53205dec47cf09c774 = $(`<div id="html_538223372871ca53205dec47cf09c774" style="width: 100.0%; height: 100.0%;">Estonia - GDP per Capita: 28332.6290917984</div>`)[0];
+                popup_d367d9a3b27b8ee2299863a19e9aba99.setContent(html_538223372871ca53205dec47cf09c774);
+            
+        
+
+        marker_133698d5e05fc420ba9cb3683c092174.bindPopup(popup_d367d9a3b27b8ee2299863a19e9aba99)
+        ;
+
+        
+    
+    
+            var marker_20df2de2279a6cad6511caf1328aeef7 = L.marker(
+                [-26.5624806, 31.3991317],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_6f422cedae18b5d38777efcc3ca9de90 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b4888c7503f0c876e462f9ecc335c889 = $(`<div id="html_b4888c7503f0c876e462f9ecc335c889" style="width: 100.0%; height: 100.0%;">Eswatini - GDP per Capita: 4039.51803604474</div>`)[0];
+                popup_6f422cedae18b5d38777efcc3ca9de90.setContent(html_b4888c7503f0c876e462f9ecc335c889);
+            
+        
+
+        marker_20df2de2279a6cad6511caf1328aeef7.bindPopup(popup_6f422cedae18b5d38777efcc3ca9de90)
+        ;
+
+        
+    
+    
+            var marker_4648b77b04b671ec9927e3cfb99a75b1 = L.marker(
+                [10.2116702, 38.6521203],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_70fe2a915ad85c537befc3332b3c1ef7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_294b524ec2a8d0791129b3fd1773817f = $(`<div id="html_294b524ec2a8d0791129b3fd1773817f" style="width: 100.0%; height: 100.0%;">Ethiopia - GDP per Capita: 1027.58591828225</div>`)[0];
+                popup_70fe2a915ad85c537befc3332b3c1ef7.setContent(html_294b524ec2a8d0791129b3fd1773817f);
+            
+        
+
+        marker_4648b77b04b671ec9927e3cfb99a75b1.bindPopup(popup_70fe2a915ad85c537befc3332b3c1ef7)
+        ;
+
+        
+    
+    
+            var marker_fa53e6c0b69f8e5ceb57dff8ad572ac8 = L.marker(
+                [62.0448724, -7.0322972],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_58e59b5f88a29d531f772f294e70f435 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_45bd53caeb77f5eb425a0b5f0a789ae8 = $(`<div id="html_45bd53caeb77f5eb425a0b5f0a789ae8" style="width: 100.0%; height: 100.0%;">Faroe Islands - GDP per Capita: nan</div>`)[0];
+                popup_58e59b5f88a29d531f772f294e70f435.setContent(html_45bd53caeb77f5eb425a0b5f0a789ae8);
+            
+        
+
+        marker_fa53e6c0b69f8e5ceb57dff8ad572ac8.bindPopup(popup_58e59b5f88a29d531f772f294e70f435)
+        ;
+
+        
+    
+    
+            var marker_b50c80c248ed4f0415e45fc7fed1b742 = L.marker(
+                [-18.1239696, 179.0122737],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_036258a2fad095f7efa1a456539f4ff5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bad98561c643ccfb17fd798b3496fc71 = $(`<div id="html_bad98561c643ccfb17fd798b3496fc71" style="width: 100.0%; height: 100.0%;">Fiji - GDP per Capita: 5316.65838506043</div>`)[0];
+                popup_036258a2fad095f7efa1a456539f4ff5.setContent(html_bad98561c643ccfb17fd798b3496fc71);
+            
+        
+
+        marker_b50c80c248ed4f0415e45fc7fed1b742.bindPopup(popup_036258a2fad095f7efa1a456539f4ff5)
+        ;
+
+        
+    
+    
+            var marker_3a2b8f54f82d6f454e903cdd816c6033 = L.marker(
+                [63.2467777, 25.9209164],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_d867a6b25a117c6b7e03a3aeb5befb8d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_12ab28d3720b7e5fc63e318d989de2e8 = $(`<div id="html_12ab28d3720b7e5fc63e318d989de2e8" style="width: 100.0%; height: 100.0%;">Finland - GDP per Capita: 50536.6244670541</div>`)[0];
+                popup_d867a6b25a117c6b7e03a3aeb5befb8d.setContent(html_12ab28d3720b7e5fc63e318d989de2e8);
+            
+        
+
+        marker_3a2b8f54f82d6f454e903cdd816c6033.bindPopup(popup_d867a6b25a117c6b7e03a3aeb5befb8d)
+        ;
+
+        
+    
+    
+            var marker_dad3d083d68da05aa273f07fb1568423 = L.marker(
+                [46.603354, 1.8883335],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_8f1c8f744707494a11e25a83af00870f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fe203affb2a6b566e678e3d8b09d8628 = $(`<div id="html_fe203affb2a6b566e678e3d8b09d8628" style="width: 100.0%; height: 100.0%;">France - GDP per Capita: 40963.837337041</div>`)[0];
+                popup_8f1c8f744707494a11e25a83af00870f.setContent(html_fe203affb2a6b566e678e3d8b09d8628);
+            
+        
+
+        marker_dad3d083d68da05aa273f07fb1568423.bindPopup(popup_8f1c8f744707494a11e25a83af00870f)
+        ;
+
+        
+    
+    
+            var marker_fa5cab9630fba6ddd4a7ddb20eed312c = L.marker(
+                [-17.0243749, -144.6434898],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_2f06b2a4b15c3d96350ec39633129199 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5129c52e6b22906ab8f80dbaeeeb0e94 = $(`<div id="html_5129c52e6b22906ab8f80dbaeeeb0e94" style="width: 100.0%; height: 100.0%;">French Polynesia - GDP per Capita: nan</div>`)[0];
+                popup_2f06b2a4b15c3d96350ec39633129199.setContent(html_5129c52e6b22906ab8f80dbaeeeb0e94);
+            
+        
+
+        marker_fa5cab9630fba6ddd4a7ddb20eed312c.bindPopup(popup_2f06b2a4b15c3d96350ec39633129199)
+        ;
+
+        
+    
+    
+            var marker_0fd697e8efb9cab2e60400f32b5b2185 = L.marker(
+                [-0.8999695, 11.6899699],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_dcda59f324dbf73d3000cae5e1ccf7c3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_20e1bfa0d9c7252552fed350cd637f33 = $(`<div id="html_20e1bfa0d9c7252552fed350cd637f33" style="width: 100.0%; height: 100.0%;">Gabon - GDP per Capita: 8820.34733810024</div>`)[0];
+                popup_dcda59f324dbf73d3000cae5e1ccf7c3.setContent(html_20e1bfa0d9c7252552fed350cd637f33);
+            
+        
+
+        marker_0fd697e8efb9cab2e60400f32b5b2185.bindPopup(popup_dcda59f324dbf73d3000cae5e1ccf7c3)
+        ;
+
+        
+    
+    
+            var marker_aa34a18f48f0b013cc8f6abb2ef70324 = L.marker(
+                [51.5017808, -0.1876072550989132],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_e0ab5dd1f14bf54f8ee902a61f5b678f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8dff577e7f51fdfe4c96d4d01f6dd363 = $(`<div id="html_8dff577e7f51fdfe4c96d4d01f6dd363" style="width: 100.0%; height: 100.0%;">Gambia, The - GDP per Capita: 840.010193356007</div>`)[0];
+                popup_e0ab5dd1f14bf54f8ee902a61f5b678f.setContent(html_8dff577e7f51fdfe4c96d4d01f6dd363);
+            
+        
+
+        marker_aa34a18f48f0b013cc8f6abb2ef70324.bindPopup(popup_e0ab5dd1f14bf54f8ee902a61f5b678f)
+        ;
+
+        
+    
+    
+            var marker_710882ca8c44971f198e39021d1a96aa = L.marker(
+                [32.3293809, -83.1137366],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_b7026e8c7303c130b5e3511a6ac787e5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8ec56c877af7f7b93ae4cd800a013c40 = $(`<div id="html_8ec56c877af7f7b93ae4cd800a013c40" style="width: 100.0%; height: 100.0%;">Georgia - GDP per Capita: 6627.70698037798</div>`)[0];
+                popup_b7026e8c7303c130b5e3511a6ac787e5.setContent(html_8ec56c877af7f7b93ae4cd800a013c40);
+            
+        
+
+        marker_710882ca8c44971f198e39021d1a96aa.bindPopup(popup_b7026e8c7303c130b5e3511a6ac787e5)
+        ;
+
+        
+    
+    
+            var marker_71c58bbdfbed7bc3a9d5c1e47a58f02d = L.marker(
+                [51.1638175, 10.4478313],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_9bc4e82740af1cc897929b2300ea3b48 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d739d0d069e86ef2bcbbc8bf243136e4 = $(`<div id="html_d739d0d069e86ef2bcbbc8bf243136e4" style="width: 100.0%; height: 100.0%;">Germany - GDP per Capita: 48432.4558732596</div>`)[0];
+                popup_9bc4e82740af1cc897929b2300ea3b48.setContent(html_d739d0d069e86ef2bcbbc8bf243136e4);
+            
+        
+
+        marker_71c58bbdfbed7bc3a9d5c1e47a58f02d.bindPopup(popup_9bc4e82740af1cc897929b2300ea3b48)
+        ;
+
+        
+    
+    
+            var marker_c78dd2dc789802036b30b561c199aa66 = L.marker(
+                [8.0300284, -1.0800271],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_419ce1267e1ae4f93e2e1c542663f24a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bbed16f9a921ed73e09bc031bd03b1cb = $(`<div id="html_bbed16f9a921ed73e09bc031bd03b1cb" style="width: 100.0%; height: 100.0%;">Ghana - GDP per Capita: 2175.85976967011</div>`)[0];
+                popup_419ce1267e1ae4f93e2e1c542663f24a.setContent(html_bbed16f9a921ed73e09bc031bd03b1cb);
+            
+        
+
+        marker_c78dd2dc789802036b30b561c199aa66.bindPopup(popup_419ce1267e1ae4f93e2e1c542663f24a)
+        ;
+
+        
+    
+    
+            var marker_5469add94178b49e35de49d5a9acce15 = L.marker(
+                [36.1285933, -5.3474761],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_2e2baea4e84415b1f340032e16c3b346 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2ba25cd5ac5d4ce8091ba6b2cf7b749c = $(`<div id="html_2ba25cd5ac5d4ce8091ba6b2cf7b749c" style="width: 100.0%; height: 100.0%;">Gibraltar - GDP per Capita: nan</div>`)[0];
+                popup_2e2baea4e84415b1f340032e16c3b346.setContent(html_2ba25cd5ac5d4ce8091ba6b2cf7b749c);
+            
+        
+
+        marker_5469add94178b49e35de49d5a9acce15.bindPopup(popup_2e2baea4e84415b1f340032e16c3b346)
+        ;
+
+        
+    
+    
+            var marker_c9953942f48fbf84e6b230f9108a37af = L.marker(
+                [38.9953683, 21.9877132],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_1fb370b573883adba7959994144c2f22 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6f4069fcd20136008338b8488af42545 = $(`<div id="html_6f4069fcd20136008338b8488af42545" style="width: 100.0%; height: 100.0%;">Greece - GDP per Capita: 20732.0522190537</div>`)[0];
+                popup_1fb370b573883adba7959994144c2f22.setContent(html_6f4069fcd20136008338b8488af42545);
+            
+        
+
+        marker_c9953942f48fbf84e6b230f9108a37af.bindPopup(popup_1fb370b573883adba7959994144c2f22)
+        ;
+
+        
+    
+    
+            var marker_0f89064d77043d09d8ef2ac9eceff5c6 = L.marker(
+                [77.6192349, -42.8125967],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_c66909ee1a458bb3d5a7b317207d210a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_22c5097accdabc26b9c9486fedefb8f4 = $(`<div id="html_22c5097accdabc26b9c9486fedefb8f4" style="width: 100.0%; height: 100.0%;">Greenland - GDP per Capita: nan</div>`)[0];
+                popup_c66909ee1a458bb3d5a7b317207d210a.setContent(html_22c5097accdabc26b9c9486fedefb8f4);
+            
+        
+
+        marker_0f89064d77043d09d8ef2ac9eceff5c6.bindPopup(popup_c66909ee1a458bb3d5a7b317207d210a)
+        ;
+
+        
+    
+    
+            var marker_5f85e6ea3aec36af475afcf6cc5a0b1f = L.marker(
+                [12.1360374, -61.6904045],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_48694026970525d8c729098b78046b57 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_77167a99a874c49a26451b3416655f61 = $(`<div id="html_77167a99a874c49a26451b3416655f61" style="width: 100.0%; height: 100.0%;">Grenada - GDP per Capita: 10016.2086862449</div>`)[0];
+                popup_48694026970525d8c729098b78046b57.setContent(html_77167a99a874c49a26451b3416655f61);
+            
+        
+
+        marker_5f85e6ea3aec36af475afcf6cc5a0b1f.bindPopup(popup_48694026970525d8c729098b78046b57)
+        ;
+
+        
+    
+    
+            var marker_36f962d1b5f2c3507cb5e8a08e9f754a = L.marker(
+                [13.450125700000001, 144.75755102972062],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_b8fe7486bb8f6f9d222840975b56919b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_69a6f0829201864e2fabf41afb161752 = $(`<div id="html_69a6f0829201864e2fabf41afb161752" style="width: 100.0%; height: 100.0%;">Guam - GDP per Capita: nan</div>`)[0];
+                popup_b8fe7486bb8f6f9d222840975b56919b.setContent(html_69a6f0829201864e2fabf41afb161752);
+            
+        
+
+        marker_36f962d1b5f2c3507cb5e8a08e9f754a.bindPopup(popup_b8fe7486bb8f6f9d222840975b56919b)
+        ;
+
+        
+    
+    
+            var marker_db2fde3328d7c0cabb76f963d4a3c18b = L.marker(
+                [15.5855545, -90.345759],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_9a9ff25b9b784cf360ff58eb49b9ec84 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_70bec5c987c71ea832d0bb90975333b0 = $(`<div id="html_70bec5c987c71ea832d0bb90975333b0" style="width: 100.0%; height: 100.0%;">Guatemala - GDP per Capita: 5473.20874104102</div>`)[0];
+                popup_9a9ff25b9b784cf360ff58eb49b9ec84.setContent(html_70bec5c987c71ea832d0bb90975333b0);
+            
+        
+
+        marker_db2fde3328d7c0cabb76f963d4a3c18b.bindPopup(popup_9a9ff25b9b784cf360ff58eb49b9ec84)
+        ;
+
+        
+    
+    
+            var marker_7baa3b919439519e95041e66e2b58147 = L.marker(
+                [10.7226226, -10.7083587],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_19e3646466303002286bb6ebc30ef923 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8029fdf85ab87b9f53eb916731c99733 = $(`<div id="html_8029fdf85ab87b9f53eb916731c99733" style="width: 100.0%; height: 100.0%;">Guinea - GDP per Capita: 1531.65647549394</div>`)[0];
+                popup_19e3646466303002286bb6ebc30ef923.setContent(html_8029fdf85ab87b9f53eb916731c99733);
+            
+        
+
+        marker_7baa3b919439519e95041e66e2b58147.bindPopup(popup_19e3646466303002286bb6ebc30ef923)
+        ;
+
+        
+    
+    
+            var marker_a7ed57904e491fe66eb6f41671483289 = L.marker(
+                [11.815215, -15.2351044],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_789edf7ce299ff1e74819614f387d9c6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c3ec32ac2e0a5422e40c8ad4f7002fef = $(`<div id="html_c3ec32ac2e0a5422e40c8ad4f7002fef" style="width: 100.0%; height: 100.0%;">Guinea-Bissau - GDP per Capita: 775.828965734682</div>`)[0];
+                popup_789edf7ce299ff1e74819614f387d9c6.setContent(html_c3ec32ac2e0a5422e40c8ad4f7002fef);
+            
+        
+
+        marker_a7ed57904e491fe66eb6f41671483289.bindPopup(popup_789edf7ce299ff1e74819614f387d9c6)
+        ;
+
+        
+    
+    
+            var marker_35afb7cf5459c8cdd66a28be7ad2cf01 = L.marker(
+                [4.8417097, -58.6416891],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_7cc0f1c9ba2dfcb20a2f9e2d311cfcdb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_302c3b7e2f3e814fefff5109496fd02d = $(`<div id="html_302c3b7e2f3e814fefff5109496fd02d" style="width: 100.0%; height: 100.0%;">Guyana - GDP per Capita: 18989.7901988355</div>`)[0];
+                popup_7cc0f1c9ba2dfcb20a2f9e2d311cfcdb.setContent(html_302c3b7e2f3e814fefff5109496fd02d);
+            
+        
+
+        marker_35afb7cf5459c8cdd66a28be7ad2cf01.bindPopup(popup_7cc0f1c9ba2dfcb20a2f9e2d311cfcdb)
+        ;
+
+        
+    
+    
+            var marker_2dc1fcc5a3dbc6988a8a2fc133c36e15 = L.marker(
+                [19.1399952, -72.3570972],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_fb4369f53a2ccb1d570a2cdf87692b16 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cf7f3597222bc2e54566cf1a162469b0 = $(`<div id="html_cf7f3597222bc2e54566cf1a162469b0" style="width: 100.0%; height: 100.0%;">Haiti - GDP per Capita: 1748.25713234727</div>`)[0];
+                popup_fb4369f53a2ccb1d570a2cdf87692b16.setContent(html_cf7f3597222bc2e54566cf1a162469b0);
+            
+        
+
+        marker_2dc1fcc5a3dbc6988a8a2fc133c36e15.bindPopup(popup_fb4369f53a2ccb1d570a2cdf87692b16)
+        ;
+
+        
+    
+    
+            var marker_4aeef44688f330ec9976ecaca11de3cc = L.marker(
+                [15.2572432, -86.0755145],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_f034c4547194e1d36bbb6efb3d1d0680 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eadae64498e388176de30cc0db56647d = $(`<div id="html_eadae64498e388176de30cc0db56647d" style="width: 100.0%; height: 100.0%;">Honduras - GDP per Capita: 3040.17307960182</div>`)[0];
+                popup_f034c4547194e1d36bbb6efb3d1d0680.setContent(html_eadae64498e388176de30cc0db56647d);
+            
+        
+
+        marker_4aeef44688f330ec9976ecaca11de3cc.bindPopup(popup_f034c4547194e1d36bbb6efb3d1d0680)
+        ;
+
+        
+    
+    
+            var marker_010e6d8cf801c5668dbc158079d90dfd = L.marker(
+                [22.350627, 114.1849161],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_743898dd37912c69990f7a2c7cf7eaba = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cc733427db51815d5c8c1e8631c3c50e = $(`<div id="html_cc733427db51815d5c8c1e8631c3c50e" style="width: 100.0%; height: 100.0%;">Hong Kong SAR, China - GDP per Capita: 48983.623801213</div>`)[0];
+                popup_743898dd37912c69990f7a2c7cf7eaba.setContent(html_cc733427db51815d5c8c1e8631c3c50e);
+            
+        
+
+        marker_010e6d8cf801c5668dbc158079d90dfd.bindPopup(popup_743898dd37912c69990f7a2c7cf7eaba)
+        ;
+
+        
+    
+    
+            var marker_033528edb6548906b8c941c2e4f5a939 = L.marker(
+                [47.1817585, 19.5060937],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_09aeebe118b952282ed5ab06ab2082ea = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c7a55971e0603541e716f92470fc91c6 = $(`<div id="html_c7a55971e0603541e716f92470fc91c6" style="width: 100.0%; height: 100.0%;">Hungary - GDP per Capita: 18463.2085249699</div>`)[0];
+                popup_09aeebe118b952282ed5ab06ab2082ea.setContent(html_c7a55971e0603541e716f92470fc91c6);
+            
+        
+
+        marker_033528edb6548906b8c941c2e4f5a939.bindPopup(popup_09aeebe118b952282ed5ab06ab2082ea)
+        ;
+
+        
+    
+    
+            var marker_d5e7c1f7461361461799489752b88f51 = L.marker(
+                [64.9841821, -18.1059013],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_2c41e45cb96f94ad6689c23529484fe4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_65b59d4db61fb04a3d25fed2c8eaf08f = $(`<div id="html_65b59d4db61fb04a3d25fed2c8eaf08f" style="width: 100.0%; height: 100.0%;">Iceland - GDP per Capita: 72902.9799538499</div>`)[0];
+                popup_2c41e45cb96f94ad6689c23529484fe4.setContent(html_65b59d4db61fb04a3d25fed2c8eaf08f);
+            
+        
+
+        marker_d5e7c1f7461361461799489752b88f51.bindPopup(popup_2c41e45cb96f94ad6689c23529484fe4)
+        ;
+
+        
+    
+    
+            var marker_b986b96403a011da98155044c60c031f = L.marker(
+                [22.3511148, 78.6677428],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_031d6ba9873f84e2ca3f454e41a21e41 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4c722e8291cbfcccb7f5e134c2ea9b8b = $(`<div id="html_4c722e8291cbfcccb7f5e134c2ea9b8b" style="width: 100.0%; height: 100.0%;">India - GDP per Capita: 2388.62119776762</div>`)[0];
+                popup_031d6ba9873f84e2ca3f454e41a21e41.setContent(html_4c722e8291cbfcccb7f5e134c2ea9b8b);
+            
+        
+
+        marker_b986b96403a011da98155044c60c031f.bindPopup(popup_031d6ba9873f84e2ca3f454e41a21e41)
+        ;
+
+        
+    
+    
+            var marker_b8c6a01da18c800e35408539fb40f722 = L.marker(
+                [-2.4833826, 117.8902853],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_61b9363010487ed3eebdd2dc261d6802 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2375660dcbd2522c9ab34445464fe5fa = $(`<div id="html_2375660dcbd2522c9ab34445464fe5fa" style="width: 100.0%; height: 100.0%;">Indonesia - GDP per Capita: 4787.99930765134</div>`)[0];
+                popup_61b9363010487ed3eebdd2dc261d6802.setContent(html_2375660dcbd2522c9ab34445464fe5fa);
+            
+        
+
+        marker_b8c6a01da18c800e35408539fb40f722.bindPopup(popup_61b9363010487ed3eebdd2dc261d6802)
+        ;
+
+        
+    
+    
+            var marker_ff46aea02c7ce46df23c27cd8d348363 = L.marker(
+                [33.0955793, 44.1749775],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_1697ded6a735d4f473066c3594294d7b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b43a83f465f61907bb373c3c0673428a = $(`<div id="html_b43a83f465f61907bb373c3c0673428a" style="width: 100.0%; height: 100.0%;">Iraq - GDP per Capita: 5937.19546600271</div>`)[0];
+                popup_1697ded6a735d4f473066c3594294d7b.setContent(html_b43a83f465f61907bb373c3c0673428a);
+            
+        
+
+        marker_ff46aea02c7ce46df23c27cd8d348363.bindPopup(popup_1697ded6a735d4f473066c3594294d7b)
+        ;
+
+        
+    
+    
+            var marker_4a50e54bd9f088feeaf614a0a53b63d4 = L.marker(
+                [52.865196, -7.9794599],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_7d29fafc3c7a8a0cc48d2e8ce788011c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_24949f2bfc2c48005888132997a90161 = $(`<div id="html_24949f2bfc2c48005888132997a90161" style="width: 100.0%; height: 100.0%;">Ireland - GDP per Capita: 104038.946076296</div>`)[0];
+                popup_7d29fafc3c7a8a0cc48d2e8ce788011c.setContent(html_24949f2bfc2c48005888132997a90161);
+            
+        
+
+        marker_4a50e54bd9f088feeaf614a0a53b63d4.bindPopup(popup_7d29fafc3c7a8a0cc48d2e8ce788011c)
+        ;
+
+        
+    
+    
+            var marker_6b7bd4ca69eb5123d43600736ea4a995 = L.marker(
+                [54.1936805, -4.5591148],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_340db5ee469a1913d119163f5a265980 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9247d2033ed1afc66463390abca4bc09 = $(`<div id="html_9247d2033ed1afc66463390abca4bc09" style="width: 100.0%; height: 100.0%;">Isle of Man - GDP per Capita: nan</div>`)[0];
+                popup_340db5ee469a1913d119163f5a265980.setContent(html_9247d2033ed1afc66463390abca4bc09);
+            
+        
+
+        marker_6b7bd4ca69eb5123d43600736ea4a995.bindPopup(popup_340db5ee469a1913d119163f5a265980)
+        ;
+
+        
+    
+    
+            var marker_2e022ae9170cc30cfa8d56be0228de1b = L.marker(
+                [30.8124247, 34.8594762],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_82ef0bf62d12c4c63842488103760040 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_119355d6ac3fbdb36ee8bb2c5679f3cf = $(`<div id="html_119355d6ac3fbdb36ee8bb2c5679f3cf" style="width: 100.0%; height: 100.0%;">Israel - GDP per Capita: 54659.753964319</div>`)[0];
+                popup_82ef0bf62d12c4c63842488103760040.setContent(html_119355d6ac3fbdb36ee8bb2c5679f3cf);
+            
+        
+
+        marker_2e022ae9170cc30cfa8d56be0228de1b.bindPopup(popup_82ef0bf62d12c4c63842488103760040)
+        ;
+
+        
+    
+    
+            var marker_6e73af1ddf28ac8c470523fd314370d4 = L.marker(
+                [42.6384261, 12.674297],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_50adcde7d870a2535cf4bffc10fcaf89 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bd06485fb9c6a5cb205733b37beb3358 = $(`<div id="html_bd06485fb9c6a5cb205733b37beb3358" style="width: 100.0%; height: 100.0%;">Italy - GDP per Capita: 34157.990122464</div>`)[0];
+                popup_50adcde7d870a2535cf4bffc10fcaf89.setContent(html_bd06485fb9c6a5cb205733b37beb3358);
+            
+        
+
+        marker_6e73af1ddf28ac8c470523fd314370d4.bindPopup(popup_50adcde7d870a2535cf4bffc10fcaf89)
+        ;
+
+        
+    
+    
+            var marker_327783aebcdf86d6317bb5e5ed5272e8 = L.marker(
+                [18.1850507, -77.3947693],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_a2dbf0cfcdbabaed733b5d4a619ec18b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ab32013df1b5d079a7f11da7b03c601b = $(`<div id="html_ab32013df1b5d079a7f11da7b03c601b" style="width: 100.0%; height: 100.0%;">Jamaica - GDP per Capita: 6047.21646430936</div>`)[0];
+                popup_a2dbf0cfcdbabaed733b5d4a619ec18b.setContent(html_ab32013df1b5d079a7f11da7b03c601b);
+            
+        
+
+        marker_327783aebcdf86d6317bb5e5ed5272e8.bindPopup(popup_a2dbf0cfcdbabaed733b5d4a619ec18b)
+        ;
+
+        
+    
+    
+            var marker_31220e518693b5cc210589aa37214436 = L.marker(
+                [36.5748441, 139.2394179],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_a8816f1a8172f8a4e20032b4de8878d5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_33e046d807a4d56113f1e66131f1366a = $(`<div id="html_33e046d807a4d56113f1e66131f1366a" style="width: 100.0%; height: 100.0%;">Japan - GDP per Capita: 33815.3172733799</div>`)[0];
+                popup_a8816f1a8172f8a4e20032b4de8878d5.setContent(html_33e046d807a4d56113f1e66131f1366a);
+            
+        
+
+        marker_31220e518693b5cc210589aa37214436.bindPopup(popup_a8816f1a8172f8a4e20032b4de8878d5)
+        ;
+
+        
+    
+    
+            var marker_f1dcff99a5db515fa10ac776682c675e = L.marker(
+                [31.1667049, 36.941628],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_ce1b1399a5944fd23b1f2d25717f2156 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_af5a3b6e36c64f1fd798680260e646a2 = $(`<div id="html_af5a3b6e36c64f1fd798680260e646a2" style="width: 100.0%; height: 100.0%;">Jordan - GDP per Capita: 4204.50563967692</div>`)[0];
+                popup_ce1b1399a5944fd23b1f2d25717f2156.setContent(html_af5a3b6e36c64f1fd798680260e646a2);
+            
+        
+
+        marker_f1dcff99a5db515fa10ac776682c675e.bindPopup(popup_ce1b1399a5944fd23b1f2d25717f2156)
+        ;
+
+        
+    
+    
+            var marker_30b0dee84f9774a9e6f89aa4d07366c3 = L.marker(
+                [48.1012954, 66.7780818],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_833b0080684945ccb0040483d1b89da7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bfdf54b7603a7d388da42092ec98ddde = $(`<div id="html_bfdf54b7603a7d388da42092ec98ddde" style="width: 100.0%; height: 100.0%;">Kazakhstan - GDP per Capita: 11243.6712256386</div>`)[0];
+                popup_833b0080684945ccb0040483d1b89da7.setContent(html_bfdf54b7603a7d388da42092ec98ddde);
+            
+        
+
+        marker_30b0dee84f9774a9e6f89aa4d07366c3.bindPopup(popup_833b0080684945ccb0040483d1b89da7)
+        ;
+
+        
+    
+    
+            var marker_fe4c9533cb46bd4cfa55b5d190cebcc2 = L.marker(
+                [1.4419683, 38.4313975],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_d4fb64245e608db92407e5b2b7f20102 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0f13bdb54ac00a502854c123bb544452 = $(`<div id="html_0f13bdb54ac00a502854c123bb544452" style="width: 100.0%; height: 100.0%;">Kenya - GDP per Capita: 2099.30193826696</div>`)[0];
+                popup_d4fb64245e608db92407e5b2b7f20102.setContent(html_0f13bdb54ac00a502854c123bb544452);
+            
+        
+
+        marker_fe4c9533cb46bd4cfa55b5d190cebcc2.bindPopup(popup_d4fb64245e608db92407e5b2b7f20102)
+        ;
+
+        
+    
+    
+            var marker_698a3a4323d2dcefaf6a413a4ee90150 = L.marker(
+                [0.3448612, 173.6641773],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_001c4c25eb6bc5396f775885c73f7e78 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fc689e8fd7ee1d2db7028b6795b31c87 = $(`<div id="html_fc689e8fd7ee1d2db7028b6795b31c87" style="width: 100.0%; height: 100.0%;">Kiribati - GDP per Capita: 1701.97012305233</div>`)[0];
+                popup_001c4c25eb6bc5396f775885c73f7e78.setContent(html_fc689e8fd7ee1d2db7028b6795b31c87);
+            
+        
+
+        marker_698a3a4323d2dcefaf6a413a4ee90150.bindPopup(popup_001c4c25eb6bc5396f775885c73f7e78)
+        ;
+
+        
+    
+    
+            var marker_2b2b6214c8572e81a11c3de7606eb4e9 = L.marker(
+                [42.5869578, 20.9021231],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_50ea200e38d4cdd5277b99dd7762da68 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3ecb92ef571dfe1f4bee4419e4b214e9 = $(`<div id="html_3ecb92ef571dfe1f4bee4419e4b214e9" style="width: 100.0%; height: 100.0%;">Kosovo - GDP per Capita: 5351.43954231081</div>`)[0];
+                popup_50ea200e38d4cdd5277b99dd7762da68.setContent(html_3ecb92ef571dfe1f4bee4419e4b214e9);
+            
+        
+
+        marker_2b2b6214c8572e81a11c3de7606eb4e9.bindPopup(popup_50ea200e38d4cdd5277b99dd7762da68)
+        ;
+
+        
+    
+    
+            var marker_e1cba991e11e06e417d7af96bf16dd25 = L.marker(
+                [29.2733964, 47.4979476],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_6edf28dc254c97114e6978e6adf306cc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bda5b41d5fb76c3576dcef8908c2777f = $(`<div id="html_bda5b41d5fb76c3576dcef8908c2777f" style="width: 100.0%; height: 100.0%;">Kuwait - GDP per Capita: 43233.4890938984</div>`)[0];
+                popup_6edf28dc254c97114e6978e6adf306cc.setContent(html_bda5b41d5fb76c3576dcef8908c2777f);
+            
+        
+
+        marker_e1cba991e11e06e417d7af96bf16dd25.bindPopup(popup_6edf28dc254c97114e6978e6adf306cc)
+        ;
+
+        
+    
+    
+            var marker_0f8ca79d9c8ef10706d67b49f2ce401f = L.marker(
+                [41.5089324, 74.724091],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_66cab6d6aea34801f904f5c666c4edb4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_df26669dd54861cc8f166bd828000b5b = $(`<div id="html_df26669dd54861cc8f166bd828000b5b" style="width: 100.0%; height: 100.0%;">Kyrgyz Republic - GDP per Capita: 1606.66807508711</div>`)[0];
+                popup_66cab6d6aea34801f904f5c666c4edb4.setContent(html_df26669dd54861cc8f166bd828000b5b);
+            
+        
+
+        marker_0f8ca79d9c8ef10706d67b49f2ce401f.bindPopup(popup_66cab6d6aea34801f904f5c666c4edb4)
+        ;
+
+        
+    
+    
+            var marker_0b191577fbe83a3e1f2b67af6ee57126 = L.marker(
+                [17.9751896, 102.6223322],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_7b09d7b462f312696915ab9a844eec3f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eb087d7115049744f381f2558fe988b1 = $(`<div id="html_eb087d7115049744f381f2558fe988b1" style="width: 100.0%; height: 100.0%;">Lao PDR - GDP per Capita: 2088.37718210612</div>`)[0];
+                popup_7b09d7b462f312696915ab9a844eec3f.setContent(html_eb087d7115049744f381f2558fe988b1);
+            
+        
+
+        marker_0b191577fbe83a3e1f2b67af6ee57126.bindPopup(popup_7b09d7b462f312696915ab9a844eec3f)
+        ;
+
+        
+    
+    
+            var marker_6ebab2a646cf02a0d62f3e2ec09c2002 = L.marker(
+                [56.8406494, 24.7537645],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_c15d0816ed8925ab0c006cd2bbbe5d41 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2631ba99cf03fdae1fbf49c6423f8e64 = $(`<div id="html_2631ba99cf03fdae1fbf49c6423f8e64" style="width: 100.0%; height: 100.0%;">Latvia - GDP per Capita: 21851.1052012696</div>`)[0];
+                popup_c15d0816ed8925ab0c006cd2bbbe5d41.setContent(html_2631ba99cf03fdae1fbf49c6423f8e64);
+            
+        
+
+        marker_6ebab2a646cf02a0d62f3e2ec09c2002.bindPopup(popup_c15d0816ed8925ab0c006cd2bbbe5d41)
+        ;
+
+        
+    
+    
+            var marker_bb8e9d1b000a796d27cd424789c8554b = L.marker(
+                [33.8750629, 35.843409],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_b3ce5be1413aa3734df092ae906b55ed = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1d185584c16c2190445ec6fea350aea1 = $(`<div id="html_1d185584c16c2190445ec6fea350aea1" style="width: 100.0%; height: 100.0%;">Lebanon - GDP per Capita: nan</div>`)[0];
+                popup_b3ce5be1413aa3734df092ae906b55ed.setContent(html_1d185584c16c2190445ec6fea350aea1);
+            
+        
+
+        marker_bb8e9d1b000a796d27cd424789c8554b.bindPopup(popup_b3ce5be1413aa3734df092ae906b55ed)
+        ;
+
+        
+    
+    
+            var marker_417143e6ea8c6cec897bfb255e70888e = L.marker(
+                [-29.6039267, 28.3350193],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_8ce16060ef4c5012cce07d30efefea77 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a48568b3cfd3022d4d01fd85ef3ffc79 = $(`<div id="html_a48568b3cfd3022d4d01fd85ef3ffc79" style="width: 100.0%; height: 100.0%;">Lesotho - GDP per Capita: 1107.39529790821</div>`)[0];
+                popup_8ce16060ef4c5012cce07d30efefea77.setContent(html_a48568b3cfd3022d4d01fd85ef3ffc79);
+            
+        
+
+        marker_417143e6ea8c6cec897bfb255e70888e.bindPopup(popup_8ce16060ef4c5012cce07d30efefea77)
+        ;
+
+        
+    
+    
+            var marker_e23ca2feaf7c10ef0104d48e30b5f709 = L.marker(
+                [5.7499721, -9.3658524],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_03dc8d382755dcb14a2c130fd7a3b868 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3a2bb5106c136128ec440018bdb70774 = $(`<div id="html_3a2bb5106c136128ec440018bdb70774" style="width: 100.0%; height: 100.0%;">Liberia - GDP per Capita: 754.532876859838</div>`)[0];
+                popup_03dc8d382755dcb14a2c130fd7a3b868.setContent(html_3a2bb5106c136128ec440018bdb70774);
+            
+        
+
+        marker_e23ca2feaf7c10ef0104d48e30b5f709.bindPopup(popup_03dc8d382755dcb14a2c130fd7a3b868)
+        ;
+
+        
+    
+    
+            var marker_1b1ff970ef1bb2e449395b3178e59197 = L.marker(
+                [26.8234472, 18.1236723],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_59fd6034767872bee755af47b17a3b7e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0b13a2a55bf27c8816a5b70ab477efb0 = $(`<div id="html_0b13a2a55bf27c8816a5b70ab477efb0" style="width: 100.0%; height: 100.0%;">Libya - GDP per Capita: 6716.09598462328</div>`)[0];
+                popup_59fd6034767872bee755af47b17a3b7e.setContent(html_0b13a2a55bf27c8816a5b70ab477efb0);
+            
+        
+
+        marker_1b1ff970ef1bb2e449395b3178e59197.bindPopup(popup_59fd6034767872bee755af47b17a3b7e)
+        ;
+
+        
+    
+    
+            var marker_ccdd27232a42aa46bdadc73c5edb8cd7 = L.marker(
+                [47.1416307, 9.5531527],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_e2e6e53ac2f7f5ffcec17bd8aee59c4a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f43525d06929be717462f713a54f81c7 = $(`<div id="html_f43525d06929be717462f713a54f81c7" style="width: 100.0%; height: 100.0%;">Liechtenstein - GDP per Capita: nan</div>`)[0];
+                popup_e2e6e53ac2f7f5ffcec17bd8aee59c4a.setContent(html_f43525d06929be717462f713a54f81c7);
+            
+        
+
+        marker_ccdd27232a42aa46bdadc73c5edb8cd7.bindPopup(popup_e2e6e53ac2f7f5ffcec17bd8aee59c4a)
+        ;
+
+        
+    
+    
+            var marker_33fd3d4630670ef04056dcac5a4eb995 = L.marker(
+                [55.3500003, 23.7499997],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_8f8832cdebfefe7bfd02056057bdcc61 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9be496e29071e1fa881e9ea274f2a17b = $(`<div id="html_9be496e29071e1fa881e9ea274f2a17b" style="width: 100.0%; height: 100.0%;">Lithuania - GDP per Capita: 24826.7910371972</div>`)[0];
+                popup_8f8832cdebfefe7bfd02056057bdcc61.setContent(html_9be496e29071e1fa881e9ea274f2a17b);
+            
+        
+
+        marker_33fd3d4630670ef04056dcac5a4eb995.bindPopup(popup_8f8832cdebfefe7bfd02056057bdcc61)
+        ;
+
+        
+    
+    
+            var marker_66add64bec2ad74b0ba7002b9663d525 = L.marker(
+                [49.8158683, 6.1296751],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_eac039acc756625ab300b25dc4e89720 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_43ffb29483bddae897dcc701f3425caa = $(`<div id="html_43ffb29483bddae897dcc701f3425caa" style="width: 100.0%; height: 100.0%;">Luxembourg - GDP per Capita: 126426.089934322</div>`)[0];
+                popup_eac039acc756625ab300b25dc4e89720.setContent(html_43ffb29483bddae897dcc701f3425caa);
+            
+        
+
+        marker_66add64bec2ad74b0ba7002b9663d525.bindPopup(popup_eac039acc756625ab300b25dc4e89720)
+        ;
+
+        
+    
+    
+            var marker_e8466fee5b4b4ce1e27f31da05b7f716 = L.marker(
+                [22.2862167, 113.8904121],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_04f56f2255ee8784468aaf5cc32e9573 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dec1411298da9312cd349d98b2188115 = $(`<div id="html_dec1411298da9312cd349d98b2188115" style="width: 100.0%; height: 100.0%;">Macao SAR, China - GDP per Capita: 31617.5018997155</div>`)[0];
+                popup_04f56f2255ee8784468aaf5cc32e9573.setContent(html_dec1411298da9312cd349d98b2188115);
+            
+        
+
+        marker_e8466fee5b4b4ce1e27f31da05b7f716.bindPopup(popup_04f56f2255ee8784468aaf5cc32e9573)
+        ;
+
+        
+    
+    
+            var marker_a1c9c97a7e177b76927f9bae5c5a669b = L.marker(
+                [-18.9249604, 46.4416422],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_ef387d141aee5a133570d8b8cb4d8585 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2d0157d1a0adf8fc3caf937e5f8e896b = $(`<div id="html_2d0157d1a0adf8fc3caf937e5f8e896b" style="width: 100.0%; height: 100.0%;">Madagascar - GDP per Capita: 505.035527643123</div>`)[0];
+                popup_ef387d141aee5a133570d8b8cb4d8585.setContent(html_2d0157d1a0adf8fc3caf937e5f8e896b);
+            
+        
+
+        marker_a1c9c97a7e177b76927f9bae5c5a669b.bindPopup(popup_ef387d141aee5a133570d8b8cb4d8585)
+        ;
+
+        
+    
+    
+            var marker_4e8a1efd18b30c81837c29a49d212238 = L.marker(
+                [-13.2687204, 33.9301963],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_e0d863bc5e53a2bfb743e4fc6b152c01 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e57b3bc3a9179d3b25cbacd9f1e2465f = $(`<div id="html_e57b3bc3a9179d3b25cbacd9f1e2465f" style="width: 100.0%; height: 100.0%;">Malawi - GDP per Capita: 645.158692067185</div>`)[0];
+                popup_e0d863bc5e53a2bfb743e4fc6b152c01.setContent(html_e57b3bc3a9179d3b25cbacd9f1e2465f);
+            
+        
+
+        marker_4e8a1efd18b30c81837c29a49d212238.bindPopup(popup_e0d863bc5e53a2bfb743e4fc6b152c01)
+        ;
+
+        
+    
+    
+            var marker_d120665cf51e6ae2a31156335bc2c314 = L.marker(
+                [4.5693754, 102.2656823],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_8dbff93f8a6853b9e285443507c12599 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6ae4074939ee6ea0f965846cbc44ebcd = $(`<div id="html_6ae4074939ee6ea0f965846cbc44ebcd" style="width: 100.0%; height: 100.0%;">Malaysia - GDP per Capita: 11971.9275991535</div>`)[0];
+                popup_8dbff93f8a6853b9e285443507c12599.setContent(html_6ae4074939ee6ea0f965846cbc44ebcd);
+            
+        
+
+        marker_d120665cf51e6ae2a31156335bc2c314.bindPopup(popup_8dbff93f8a6853b9e285443507c12599)
+        ;
+
+        
+    
+    
+            var marker_d08851d4dc73908c7a637b0f990473b7 = L.marker(
+                [3.7203503, 73.2244152],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_5e7d665b9f08ced595e7af2b7d3d72c0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_992e190bb01351fa5fa52fe03f89e13f = $(`<div id="html_992e190bb01351fa5fa52fe03f89e13f" style="width: 100.0%; height: 100.0%;">Maldives - GDP per Capita: 11817.5239328803</div>`)[0];
+                popup_5e7d665b9f08ced595e7af2b7d3d72c0.setContent(html_992e190bb01351fa5fa52fe03f89e13f);
+            
+        
+
+        marker_d08851d4dc73908c7a637b0f990473b7.bindPopup(popup_5e7d665b9f08ced595e7af2b7d3d72c0)
+        ;
+
+        
+    
+    
+            var marker_6738404810b242cfdf0d03ef38a5f451 = L.marker(
+                [16.3700359, -2.2900239],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_db50018aa447857fea5df12e114a5955 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a58edd75e25388f72447541dd9849560 = $(`<div id="html_a58edd75e25388f72447541dd9849560" style="width: 100.0%; height: 100.0%;">Mali - GDP per Capita: 833.297255208972</div>`)[0];
+                popup_db50018aa447857fea5df12e114a5955.setContent(html_a58edd75e25388f72447541dd9849560);
+            
+        
+
+        marker_6738404810b242cfdf0d03ef38a5f451.bindPopup(popup_db50018aa447857fea5df12e114a5955)
+        ;
+
+        
+    
+    
+            var marker_0486e78fa82d17cd89ac067acee1bc99 = L.marker(
+                [35.8885993, 14.4476911],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_3d9ee480a9b3979c8329d7ff202f7475 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_44f5ea9ab4db2aa04faadf0724a59829 = $(`<div id="html_44f5ea9ab4db2aa04faadf0724a59829" style="width: 100.0%; height: 100.0%;">Malta - GDP per Capita: 33940.9495961291</div>`)[0];
+                popup_3d9ee480a9b3979c8329d7ff202f7475.setContent(html_44f5ea9ab4db2aa04faadf0724a59829);
+            
+        
+
+        marker_0486e78fa82d17cd89ac067acee1bc99.bindPopup(popup_3d9ee480a9b3979c8329d7ff202f7475)
+        ;
+
+        
+    
+    
+            var marker_6f42e2bc9c32c3f55fa3664437201b0b = L.marker(
+                [8.9995549, 168.0002575],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_087827ba8f667a46c45daa6959661a69 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3078b1698c8d490d60fa81f0ddb758e4 = $(`<div id="html_3078b1698c8d490d60fa81f0ddb758e4" style="width: 100.0%; height: 100.0%;">Marshall Islands - GDP per Capita: 6727.79956217374</div>`)[0];
+                popup_087827ba8f667a46c45daa6959661a69.setContent(html_3078b1698c8d490d60fa81f0ddb758e4);
+            
+        
+
+        marker_6f42e2bc9c32c3f55fa3664437201b0b.bindPopup(popup_087827ba8f667a46c45daa6959661a69)
+        ;
+
+        
+    
+    
+            var marker_1ffcda1ee3f5535f12d60dfb47d03792 = L.marker(
+                [20.2540382, -9.2399263],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_c387f61e41c6b5461215fa6dc72ab5f4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b003959cfaed117cf0c697af629db8f0 = $(`<div id="html_b003959cfaed117cf0c697af629db8f0" style="width: 100.0%; height: 100.0%;">Mauritania - GDP per Capita: 2190.70020547034</div>`)[0];
+                popup_c387f61e41c6b5461215fa6dc72ab5f4.setContent(html_b003959cfaed117cf0c697af629db8f0);
+            
+        
+
+        marker_1ffcda1ee3f5535f12d60dfb47d03792.bindPopup(popup_c387f61e41c6b5461215fa6dc72ab5f4)
+        ;
+
+        
+    
+    
+            var marker_39b40b2891c22d78019f5f2cdd3a0d04 = L.marker(
+                [-20.2759451, 57.5703566],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_2fcb6c330f5c385de28b95426fb027c6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f5dea9a8c627a259bd958f355a9545b6 = $(`<div id="html_f5dea9a8c627a259bd958f355a9545b6" style="width: 100.0%; height: 100.0%;">Mauritius - GDP per Capita: 10216.2947440415</div>`)[0];
+                popup_2fcb6c330f5c385de28b95426fb027c6.setContent(html_f5dea9a8c627a259bd958f355a9545b6);
+            
+        
+
+        marker_39b40b2891c22d78019f5f2cdd3a0d04.bindPopup(popup_2fcb6c330f5c385de28b95426fb027c6)
+        ;
+
+        
+    
+    
+            var marker_26e7ff55bcbee33d4f4dbd57dcd25a23 = L.marker(
+                [23.6585116, -102.0077097],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_446b563f7a524536ac83596d6d5de1ad = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ba4d9cf3547949c2bade23af6c3dc829 = $(`<div id="html_ba4d9cf3547949c2bade23af6c3dc829" style="width: 100.0%; height: 100.0%;">Mexico - GDP per Capita: 11091.3054302538</div>`)[0];
+                popup_446b563f7a524536ac83596d6d5de1ad.setContent(html_ba4d9cf3547949c2bade23af6c3dc829);
+            
+        
+
+        marker_26e7ff55bcbee33d4f4dbd57dcd25a23.bindPopup(popup_446b563f7a524536ac83596d6d5de1ad)
+        ;
+
+        
+    
+    
+            var marker_2186428974871fde452a4c42462ad8ec = L.marker(
+                [47.2879608, 28.5670941],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_da87145a26081780f29d0f8709c3c00a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_86cc908b4ae1e65fc35f94a1f33a430c = $(`<div id="html_86cc908b4ae1e65fc35f94a1f33a430c" style="width: 100.0%; height: 100.0%;">Moldova - GDP per Capita: 5562.61362534668</div>`)[0];
+                popup_da87145a26081780f29d0f8709c3c00a.setContent(html_86cc908b4ae1e65fc35f94a1f33a430c);
+            
+        
+
+        marker_2186428974871fde452a4c42462ad8ec.bindPopup(popup_da87145a26081780f29d0f8709c3c00a)
+        ;
+
+        
+    
+    
+            var marker_56cb9d6bb7b2713c2bd174d8448b634a = L.marker(
+                [43.7323492, 7.4276832],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_e4f581ef7f1409a1b96f39fbaa9bb3bb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_368f9c1ac3faaef7934ae4d1b4eee140 = $(`<div id="html_368f9c1ac3faaef7934ae4d1b4eee140" style="width: 100.0%; height: 100.0%;">Monaco - GDP per Capita: nan</div>`)[0];
+                popup_e4f581ef7f1409a1b96f39fbaa9bb3bb.setContent(html_368f9c1ac3faaef7934ae4d1b4eee140);
+            
+        
+
+        marker_56cb9d6bb7b2713c2bd174d8448b634a.bindPopup(popup_e4f581ef7f1409a1b96f39fbaa9bb3bb)
+        ;
+
+        
+    
+    
+            var marker_7130338c8d69d6c5adc97729d741a8a8 = L.marker(
+                [46.8250388, 103.8499736],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_6b228bdfb41dc5724251a9446f014a12 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ba4ee9e77d0b4507ccb0de2412326ac5 = $(`<div id="html_ba4ee9e77d0b4507ccb0de2412326ac5" style="width: 100.0%; height: 100.0%;">Mongolia - GDP per Capita: 4946.75481125723</div>`)[0];
+                popup_6b228bdfb41dc5724251a9446f014a12.setContent(html_ba4ee9e77d0b4507ccb0de2412326ac5);
+            
+        
+
+        marker_7130338c8d69d6c5adc97729d741a8a8.bindPopup(popup_6b228bdfb41dc5724251a9446f014a12)
+        ;
+
+        
+    
+    
+            var marker_d21851410ab50cf9943ec51d0e92d8a4 = L.marker(
+                [42.9868853, 19.5180992],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_23b371432b17af0105e7fe6971e9fc9e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eef4e2027fbc78740b4cf2878b78cfad = $(`<div id="html_eef4e2027fbc78740b4cf2878b78cfad" style="width: 100.0%; height: 100.0%;">Montenegro - GDP per Capita: 9893.51590693197</div>`)[0];
+                popup_23b371432b17af0105e7fe6971e9fc9e.setContent(html_eef4e2027fbc78740b4cf2878b78cfad);
+            
+        
+
+        marker_d21851410ab50cf9943ec51d0e92d8a4.bindPopup(popup_23b371432b17af0105e7fe6971e9fc9e)
+        ;
+
+        
+    
+    
+            var marker_4575d03eb2c60c75b5b7c159ac0d18ca = L.marker(
+                [31.1728205, -7.3362482],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_eff3c470d071697e34efb5f2f561ca50 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_27f9b4d640428dca23cc23c842fa4b15 = $(`<div id="html_27f9b4d640428dca23cc23c842fa4b15" style="width: 100.0%; height: 100.0%;">Morocco - GDP per Capita: 3527.94189453125</div>`)[0];
+                popup_eff3c470d071697e34efb5f2f561ca50.setContent(html_27f9b4d640428dca23cc23c842fa4b15);
+            
+        
+
+        marker_4575d03eb2c60c75b5b7c159ac0d18ca.bindPopup(popup_eff3c470d071697e34efb5f2f561ca50)
+        ;
+
+        
+    
+    
+            var marker_3655994707bdd5b49c79aa3ac29d3148 = L.marker(
+                [-19.302233, 34.9144977],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_9006ca305d7b012097092b95766c433c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a1f66f8a524dc7370264153f174558ce = $(`<div id="html_a1f66f8a524dc7370264153f174558ce" style="width: 100.0%; height: 100.0%;">Mozambique - GDP per Capita: 541.454425499229</div>`)[0];
+                popup_9006ca305d7b012097092b95766c433c.setContent(html_a1f66f8a524dc7370264153f174558ce);
+            
+        
+
+        marker_3655994707bdd5b49c79aa3ac29d3148.bindPopup(popup_9006ca305d7b012097092b95766c433c)
+        ;
+
+        
+    
+    
+            var marker_e6465099c23ec6dc9157bcbd4056e31d = L.marker(
+                [17.1750495, 95.9999652],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_5c39cb500b6bd3d6621238cef582df82 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_92d27e2ca91c333f816e61f188301049 = $(`<div id="html_92d27e2ca91c333f816e61f188301049" style="width: 100.0%; height: 100.0%;">Myanmar - GDP per Capita: 1095.70178954585</div>`)[0];
+                popup_5c39cb500b6bd3d6621238cef582df82.setContent(html_92d27e2ca91c333f816e61f188301049);
+            
+        
+
+        marker_e6465099c23ec6dc9157bcbd4056e31d.bindPopup(popup_5c39cb500b6bd3d6621238cef582df82)
+        ;
+
+        
+    
+    
+            var marker_a7423fcc70ba5e1ea5d65f360c1dbd77 = L.marker(
+                [-23.2335499, 17.3231107],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_f8a8bbda64a53c84c1b63d5fdb18393e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_23dc0853c821bc39da35e003d87c7608 = $(`<div id="html_23dc0853c821bc39da35e003d87c7608" style="width: 100.0%; height: 100.0%;">Namibia - GDP per Capita: 4911.32763537761</div>`)[0];
+                popup_f8a8bbda64a53c84c1b63d5fdb18393e.setContent(html_23dc0853c821bc39da35e003d87c7608);
+            
+        
+
+        marker_a7423fcc70ba5e1ea5d65f360c1dbd77.bindPopup(popup_f8a8bbda64a53c84c1b63d5fdb18393e)
+        ;
+
+        
+    
+    
+            var marker_885788c200e28132997ec9dd0f246934 = L.marker(
+                [-0.5268357, 166.9341755],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_5633ff15292bd3a9e59a4384764fcd37 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1f9caa8633d252f14e92fc74f498edc7 = $(`<div id="html_1f9caa8633d252f14e92fc74f498edc7" style="width: 100.0%; height: 100.0%;">Nauru - GDP per Capita: 11913.6573290384</div>`)[0];
+                popup_5633ff15292bd3a9e59a4384764fcd37.setContent(html_1f9caa8633d252f14e92fc74f498edc7);
+            
+        
+
+        marker_885788c200e28132997ec9dd0f246934.bindPopup(popup_5633ff15292bd3a9e59a4384764fcd37)
+        ;
+
+        
+    
+    
+            var marker_0bf850ef4bc93ed781b318efe2b4c52e = L.marker(
+                [28.1083929, 84.0917139],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_4c31dcae1ad759702c16ba764193a92a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1ba2841356c318756bf7b0b4a61bea81 = $(`<div id="html_1ba2841356c318756bf7b0b4a61bea81" style="width: 100.0%; height: 100.0%;">Nepal - GDP per Capita: 1336.54604726414</div>`)[0];
+                popup_4c31dcae1ad759702c16ba764193a92a.setContent(html_1ba2841356c318756bf7b0b4a61bea81);
+            
+        
+
+        marker_0bf850ef4bc93ed781b318efe2b4c52e.bindPopup(popup_4c31dcae1ad759702c16ba764193a92a)
+        ;
+
+        
+    
+    
+            var marker_d5b0cff8ec8ffd7959630716efb246c0 = L.marker(
+                [52.2434979, 5.6343227],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_5a35ae8b25a2d86ae5dbcadf2e76fb35 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ac3985d3daa6aa160ebb9c69e800029a = $(`<div id="html_ac3985d3daa6aa160ebb9c69e800029a" style="width: 100.0%; height: 100.0%;">Netherlands - GDP per Capita: 55985.4034255707</div>`)[0];
+                popup_5a35ae8b25a2d86ae5dbcadf2e76fb35.setContent(html_ac3985d3daa6aa160ebb9c69e800029a);
+            
+        
+
+        marker_d5b0cff8ec8ffd7959630716efb246c0.bindPopup(popup_5a35ae8b25a2d86ae5dbcadf2e76fb35)
+        ;
+
+        
+    
+    
+            var marker_6ec0b5e8dced51920f5d9a000861bcb0 = L.marker(
+                [-21.3019905, 165.4880773],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_2c9778dfb02db3317b0bd2fe2be93f84 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0f38aabcaa4258a6d6ab802985aa82ca = $(`<div id="html_0f38aabcaa4258a6d6ab802985aa82ca" style="width: 100.0%; height: 100.0%;">New Caledonia - GDP per Capita: nan</div>`)[0];
+                popup_2c9778dfb02db3317b0bd2fe2be93f84.setContent(html_0f38aabcaa4258a6d6ab802985aa82ca);
+            
+        
+
+        marker_6ec0b5e8dced51920f5d9a000861bcb0.bindPopup(popup_2c9778dfb02db3317b0bd2fe2be93f84)
+        ;
+
+        
+    
+    
+            var marker_939a66e711ecd9d2db6abcc3bf85990a = L.marker(
+                [-41.5000831, 172.8344077],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_3ca5ecff5cd3663285d7c793ef6a2d37 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_20422149589996bd7d5eb8ae736ba5b4 = $(`<div id="html_20422149589996bd7d5eb8ae736ba5b4" style="width: 100.0%; height: 100.0%;">New Zealand - GDP per Capita: 48249.2640150011</div>`)[0];
+                popup_3ca5ecff5cd3663285d7c793ef6a2d37.setContent(html_20422149589996bd7d5eb8ae736ba5b4);
+            
+        
+
+        marker_939a66e711ecd9d2db6abcc3bf85990a.bindPopup(popup_3ca5ecff5cd3663285d7c793ef6a2d37)
+        ;
+
+        
+    
+    
+            var marker_79609c37b5ed74a575d59c720eefe1c2 = L.marker(
+                [12.6090157, -85.2936911],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_1e3ac61e6854c4e087b4621470810e5c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9484280ecd35941f207973c6a3364d89 = $(`<div id="html_9484280ecd35941f207973c6a3364d89" style="width: 100.0%; height: 100.0%;">Nicaragua - GDP per Capita: 2255.42598603695</div>`)[0];
+                popup_1e3ac61e6854c4e087b4621470810e5c.setContent(html_9484280ecd35941f207973c6a3364d89);
+            
+        
+
+        marker_79609c37b5ed74a575d59c720eefe1c2.bindPopup(popup_1e3ac61e6854c4e087b4621470810e5c)
+        ;
+
+        
+    
+    
+            var marker_72f6234d701ce997dfc25b87d6da2779 = L.marker(
+                [17.7356214, 9.3238432],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_e3cebb0cb4f639f118bb0dcb77361c11 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_540de07836d838730c7620154fae3813 = $(`<div id="html_540de07836d838730c7620154fae3813" style="width: 100.0%; height: 100.0%;">Niger - GDP per Capita: 533.028763819513</div>`)[0];
+                popup_e3cebb0cb4f639f118bb0dcb77361c11.setContent(html_540de07836d838730c7620154fae3813);
+            
+        
+
+        marker_72f6234d701ce997dfc25b87d6da2779.bindPopup(popup_e3cebb0cb4f639f118bb0dcb77361c11)
+        ;
+
+        
+    
+    
+            var marker_a8757aba3e63b3fe44d07d8e167c6db4 = L.marker(
+                [9.6000359, 7.9999721],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_4dbdada327bbf9057ef3089224e3b179 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2fea859e02d3457df00260b7ca0de172 = $(`<div id="html_2fea859e02d3457df00260b7ca0de172" style="width: 100.0%; height: 100.0%;">Nigeria - GDP per Capita: 2184.42149316828</div>`)[0];
+                popup_4dbdada327bbf9057ef3089224e3b179.setContent(html_2fea859e02d3457df00260b7ca0de172);
+            
+        
+
+        marker_a8757aba3e63b3fe44d07d8e167c6db4.bindPopup(popup_4dbdada327bbf9057ef3089224e3b179)
+        ;
+
+        
+    
+    
+            var marker_a0ad6511999d57b97d08236e278baae6 = L.marker(
+                [41.6171214, 21.7168387],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_752f656e07a1e972f9d64c99ea4dc186 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8a259cc20d4870971e02385cbb6528a8 = $(`<div id="html_8a259cc20d4870971e02385cbb6528a8" style="width: 100.0%; height: 100.0%;">North Macedonia - GDP per Capita: 6591.4712922903</div>`)[0];
+                popup_752f656e07a1e972f9d64c99ea4dc186.setContent(html_8a259cc20d4870971e02385cbb6528a8);
+            
+        
+
+        marker_a0ad6511999d57b97d08236e278baae6.bindPopup(popup_752f656e07a1e972f9d64c99ea4dc186)
+        ;
+
+        
+    
+    
+            var marker_3039c8eb0e2610bafce00272a04b37c1 = L.marker(
+                [15.1753648, 145.7379338],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_2bc0e3cd05e8dcac637f036320b575e0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c36c7faab5ffb35bc1c825f932cb9aff = $(`<div id="html_c36c7faab5ffb35bc1c825f932cb9aff" style="width: 100.0%; height: 100.0%;">Northern Mariana Islands - GDP per Capita: nan</div>`)[0];
+                popup_2bc0e3cd05e8dcac637f036320b575e0.setContent(html_c36c7faab5ffb35bc1c825f932cb9aff);
+            
+        
+
+        marker_3039c8eb0e2610bafce00272a04b37c1.bindPopup(popup_2bc0e3cd05e8dcac637f036320b575e0)
+        ;
+
+        
+    
+    
+            var marker_8b23cff60cad62c6d0c23e0c6ebe036b = L.marker(
+                [61.1529386, 8.7876653],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_f9f2571e3c2eb83b0c56413e46deb458 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_14c60de03731094355409f7e19604892 = $(`<div id="html_14c60de03731094355409f7e19604892" style="width: 100.0%; height: 100.0%;">Norway - GDP per Capita: 106148.778627718</div>`)[0];
+                popup_f9f2571e3c2eb83b0c56413e46deb458.setContent(html_14c60de03731094355409f7e19604892);
+            
+        
+
+        marker_8b23cff60cad62c6d0c23e0c6ebe036b.bindPopup(popup_f9f2571e3c2eb83b0c56413e46deb458)
+        ;
+
+        
+    
+    
+            var marker_e6711d3862061164da631862d3a7b6e5 = L.marker(
+                [21.0000287, 57.0036901],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_5be8a62a07707aff900469168748f6fd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_42eb62ec649cc6159871951eee58d8eb = $(`<div id="html_42eb62ec649cc6159871951eee58d8eb" style="width: 100.0%; height: 100.0%;">Oman - GDP per Capita: 25056.7948608378</div>`)[0];
+                popup_5be8a62a07707aff900469168748f6fd.setContent(html_42eb62ec649cc6159871951eee58d8eb);
+            
+        
+
+        marker_e6711d3862061164da631862d3a7b6e5.bindPopup(popup_5be8a62a07707aff900469168748f6fd)
+        ;
+
+        
+    
+    
+            var marker_3cf912b4fed1da874ae0106e4e0c19b7 = L.marker(
+                [30.3308401, 71.247499],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_686f731bf76ec39e4ebc5ab7d68a6a83 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7a6d1b3b58d058ff145bb9813964974a = $(`<div id="html_7a6d1b3b58d058ff145bb9813964974a" style="width: 100.0%; height: 100.0%;">Pakistan - GDP per Capita: 1596.66266149236</div>`)[0];
+                popup_686f731bf76ec39e4ebc5ab7d68a6a83.setContent(html_7a6d1b3b58d058ff145bb9813964974a);
+            
+        
+
+        marker_3cf912b4fed1da874ae0106e4e0c19b7.bindPopup(popup_686f731bf76ec39e4ebc5ab7d68a6a83)
+        ;
+
+        
+    
+    
+            var marker_7a444c2f4e68d6dc22f270088b7140ce = L.marker(
+                [5.3783537, 132.9102573],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_0db596e0ba3506a5da338e8f72f24028 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6d79f1089f4eb805ed2b73ded4ef2798 = $(`<div id="html_6d79f1089f4eb805ed2b73ded4ef2798" style="width: 100.0%; height: 100.0%;">Palau - GDP per Capita: nan</div>`)[0];
+                popup_0db596e0ba3506a5da338e8f72f24028.setContent(html_6d79f1089f4eb805ed2b73ded4ef2798);
+            
+        
+
+        marker_7a444c2f4e68d6dc22f270088b7140ce.bindPopup(popup_0db596e0ba3506a5da338e8f72f24028)
+        ;
+
+        
+    
+    
+            var marker_e7a3dd33818270cc675e7cf9a0c6d4b5 = L.marker(
+                [8.559559, -81.1308434],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_49c10a186079661ef9166a6ceef4e917 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_972d67f10e9eb5dc6234ec604e9aec80 = $(`<div id="html_972d67f10e9eb5dc6234ec604e9aec80" style="width: 100.0%; height: 100.0%;">Panama - GDP per Capita: 17357.6286293985</div>`)[0];
+                popup_49c10a186079661ef9166a6ceef4e917.setContent(html_972d67f10e9eb5dc6234ec604e9aec80);
+            
+        
+
+        marker_e7a3dd33818270cc675e7cf9a0c6d4b5.bindPopup(popup_49c10a186079661ef9166a6ceef4e917)
+        ;
+
+        
+    
+    
+            var marker_4457c2d8bb3dc64d444fe4a1fac491a0 = L.marker(
+                [-5.6816069, 144.2489081],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_5256b68de931c9447ab030f9b9ed8fff = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8cc5976ca359fa434da36febf71dce92 = $(`<div id="html_8cc5976ca359fa434da36febf71dce92" style="width: 100.0%; height: 100.0%;">Papua New Guinea - GDP per Capita: 3020.26964580164</div>`)[0];
+                popup_5256b68de931c9447ab030f9b9ed8fff.setContent(html_8cc5976ca359fa434da36febf71dce92);
+            
+        
+
+        marker_4457c2d8bb3dc64d444fe4a1fac491a0.bindPopup(popup_5256b68de931c9447ab030f9b9ed8fff)
+        ;
+
+        
+    
+    
+            var marker_adb3f594adfca95b711c6aa2c47c242c = L.marker(
+                [-23.3165935, -58.1693445],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_320fa86e143e9295bd978b050e2d6d07 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1804f7bbad3b625df1e8580398026b03 = $(`<div id="html_1804f7bbad3b625df1e8580398026b03" style="width: 100.0%; height: 100.0%;">Paraguay - GDP per Capita: 6153.05567679103</div>`)[0];
+                popup_320fa86e143e9295bd978b050e2d6d07.setContent(html_1804f7bbad3b625df1e8580398026b03);
+            
+        
+
+        marker_adb3f594adfca95b711c6aa2c47c242c.bindPopup(popup_320fa86e143e9295bd978b050e2d6d07)
+        ;
+
+        
+    
+    
+            var marker_1cd5e7a056018b9d373a881e3986f041 = L.marker(
+                [-6.8699697, -75.0458515],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_d0f839801558ad14c936150354e2afc9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_99a562b5ad5248051eee6ace331e6cf6 = $(`<div id="html_99a562b5ad5248051eee6ace331e6cf6" style="width: 100.0%; height: 100.0%;">Peru - GDP per Capita: 7125.8292350929</div>`)[0];
+                popup_d0f839801558ad14c936150354e2afc9.setContent(html_99a562b5ad5248051eee6ace331e6cf6);
+            
+        
+
+        marker_1cd5e7a056018b9d373a881e3986f041.bindPopup(popup_d0f839801558ad14c936150354e2afc9)
+        ;
+
+        
+    
+    
+            var marker_932eefb46f00079d9e843917b122d8d7 = L.marker(
+                [12.7503486, 122.7312101],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_3c30a51388aa97d5484e02cc1cfc0bd8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_41587f1e028f2bd28b433ca83da2dd46 = $(`<div id="html_41587f1e028f2bd28b433ca83da2dd46" style="width: 100.0%; height: 100.0%;">Philippines - GDP per Capita: 3498.50981598253</div>`)[0];
+                popup_3c30a51388aa97d5484e02cc1cfc0bd8.setContent(html_41587f1e028f2bd28b433ca83da2dd46);
+            
+        
+
+        marker_932eefb46f00079d9e843917b122d8d7.bindPopup(popup_3c30a51388aa97d5484e02cc1cfc0bd8)
+        ;
+
+        
+    
+    
+            var marker_02a45a11c0b3723b6660d3e477b91dec = L.marker(
+                [52.215933, 19.134422],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_2a03c3517ca8788af412ab61c0d14aa3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_32a8e26497b8a413bbc66dc3c6fa3f42 = $(`<div id="html_32a8e26497b8a413bbc66dc3c6fa3f42" style="width: 100.0%; height: 100.0%;">Poland - GDP per Capita: 18321.2808899533</div>`)[0];
+                popup_2a03c3517ca8788af412ab61c0d14aa3.setContent(html_32a8e26497b8a413bbc66dc3c6fa3f42);
+            
+        
+
+        marker_02a45a11c0b3723b6660d3e477b91dec.bindPopup(popup_2a03c3517ca8788af412ab61c0d14aa3)
+        ;
+
+        
+    
+    
+            var marker_4ca7db8c35a2308fab311226230be101 = L.marker(
+                [39.6621648, -8.1353519],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_715bd36f257e74c77d4b36f9b485d230 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ba057b20b2b81fc5e9681b02f90c02cb = $(`<div id="html_ba057b20b2b81fc5e9681b02f90c02cb" style="width: 100.0%; height: 100.0%;">Portugal - GDP per Capita: 24274.5165823077</div>`)[0];
+                popup_715bd36f257e74c77d4b36f9b485d230.setContent(html_ba057b20b2b81fc5e9681b02f90c02cb);
+            
+        
+
+        marker_4ca7db8c35a2308fab311226230be101.bindPopup(popup_715bd36f257e74c77d4b36f9b485d230)
+        ;
+
+        
+    
+    
+            var marker_c02ea0f60cd35b4f97c20f034f93e933 = L.marker(
+                [18.2247706, -66.4858295],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_76c0fdbf79c507a8d63b84145a9fe0db = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1d33b7e1ec53c09ac3f249648f91b148 = $(`<div id="html_1d33b7e1ec53c09ac3f249648f91b148" style="width: 100.0%; height: 100.0%;">Puerto Rico - GDP per Capita: 35208.6371888414</div>`)[0];
+                popup_76c0fdbf79c507a8d63b84145a9fe0db.setContent(html_1d33b7e1ec53c09ac3f249648f91b148);
+            
+        
+
+        marker_c02ea0f60cd35b4f97c20f034f93e933.bindPopup(popup_76c0fdbf79c507a8d63b84145a9fe0db)
+        ;
+
+        
+    
+    
+            var marker_190333903574ce8a0d5574dd8d1cc6b1 = L.marker(
+                [25.3336984, 51.2295295],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_b426dd05302a77a3c2ea6c374ba8211c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8a04bf4c28ec801fdf5da61dbe3c8cf8 = $(`<div id="html_8a04bf4c28ec801fdf5da61dbe3c8cf8" style="width: 100.0%; height: 100.0%;">Qatar - GDP per Capita: 88046.3204155891</div>`)[0];
+                popup_b426dd05302a77a3c2ea6c374ba8211c.setContent(html_8a04bf4c28ec801fdf5da61dbe3c8cf8);
+            
+        
+
+        marker_190333903574ce8a0d5574dd8d1cc6b1.bindPopup(popup_b426dd05302a77a3c2ea6c374ba8211c)
+        ;
+
+        
+    
+    
+            var marker_066d91131f4f8f9bc181d06652b6b597 = L.marker(
+                [45.9852129, 24.6859225],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_6af1cbef0145e6ee5e39c93bab99452f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_36a686226d33dc7494501ae3a9eceab0 = $(`<div id="html_36a686226d33dc7494501ae3a9eceab0" style="width: 100.0%; height: 100.0%;">Romania - GDP per Capita: 15892.1185256988</div>`)[0];
+                popup_6af1cbef0145e6ee5e39c93bab99452f.setContent(html_36a686226d33dc7494501ae3a9eceab0);
+            
+        
+
+        marker_066d91131f4f8f9bc181d06652b6b597.bindPopup(popup_6af1cbef0145e6ee5e39c93bab99452f)
+        ;
+
+        
+    
+    
+            var marker_720a126d5e8569414c5dd0e488ce48d1 = L.marker(
+                [64.6863136, 97.7453061],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_ff2d45d680486467c7d884a43ba0f0b4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dbce253876609db8763afa5e8b6810d9 = $(`<div id="html_dbce253876609db8763afa5e8b6810d9" style="width: 100.0%; height: 100.0%;">Russian Federation - GDP per Capita: 15345.0966796875</div>`)[0];
+                popup_ff2d45d680486467c7d884a43ba0f0b4.setContent(html_dbce253876609db8763afa5e8b6810d9);
+            
+        
+
+        marker_720a126d5e8569414c5dd0e488ce48d1.bindPopup(popup_ff2d45d680486467c7d884a43ba0f0b4)
+        ;
+
+        
+    
+    
+            var marker_c4ea7bc703443b60a3e50b601ebe8a87 = L.marker(
+                [-1.9646631, 30.0644358],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_cdeaf8e8862bfff1045ea4a8daf9b731 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2e097c2ee652afcc0ddac177b91f0cd5 = $(`<div id="html_2e097c2ee652afcc0ddac177b91f0cd5" style="width: 100.0%; height: 100.0%;">Rwanda - GDP per Capita: 966.327110112571</div>`)[0];
+                popup_cdeaf8e8862bfff1045ea4a8daf9b731.setContent(html_2e097c2ee652afcc0ddac177b91f0cd5);
+            
+        
+
+        marker_c4ea7bc703443b60a3e50b601ebe8a87.bindPopup(popup_cdeaf8e8862bfff1045ea4a8daf9b731)
+        ;
+
+        
+    
+    
+            var marker_48fb6bd6f59b493637fcabe4023dbdc3 = L.marker(
+                [-13.7693895, -172.12005],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_7c8da3e181ff7ed49d414945cb67321f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3f356657ee39ead70a7869d1aa463c56 = $(`<div id="html_3f356657ee39ead70a7869d1aa463c56" style="width: 100.0%; height: 100.0%;">Samoa - GDP per Capita: 3743.20567929219</div>`)[0];
+                popup_7c8da3e181ff7ed49d414945cb67321f.setContent(html_3f356657ee39ead70a7869d1aa463c56);
+            
+        
+
+        marker_48fb6bd6f59b493637fcabe4023dbdc3.bindPopup(popup_7c8da3e181ff7ed49d414945cb67321f)
+        ;
+
+        
+    
+    
+            var marker_6d3a13e9211408702fc486ce8e5e6058 = L.marker(
+                [43.9458623, 12.458306],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_1c940ac06a76fa095976aa4ae030520e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f010bdc89d115d8be2693dd34a7eabcd = $(`<div id="html_f010bdc89d115d8be2693dd34a7eabcd" style="width: 100.0%; height: 100.0%;">San Marino - GDP per Capita: nan</div>`)[0];
+                popup_1c940ac06a76fa095976aa4ae030520e.setContent(html_f010bdc89d115d8be2693dd34a7eabcd);
+            
+        
+
+        marker_6d3a13e9211408702fc486ce8e5e6058.bindPopup(popup_1c940ac06a76fa095976aa4ae030520e)
+        ;
+
+        
+    
+    
+            var marker_e33a6e426d5681b03ee1082026db4f76 = L.marker(
+                [0.9713095, 7.02255],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_c9197f6b4194b138a3e7be1fc0bc7ea3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3166f4e8f167a0c0a398f57501af9eda = $(`<div id="html_3166f4e8f167a0c0a398f57501af9eda" style="width: 100.0%; height: 100.0%;">Sao Tome and Principe - GDP per Capita: 2404.25869314484</div>`)[0];
+                popup_c9197f6b4194b138a3e7be1fc0bc7ea3.setContent(html_3166f4e8f167a0c0a398f57501af9eda);
+            
+        
+
+        marker_e33a6e426d5681b03ee1082026db4f76.bindPopup(popup_c9197f6b4194b138a3e7be1fc0bc7ea3)
+        ;
+
+        
+    
+    
+            var marker_afbe0e1cf2d4602c20389e3b83b1e1f7 = L.marker(
+                [25.6242618, 42.3528328],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_a1ec07c303e225c3404cfa7c5595409b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a87d95c8eb0d3dc8271b0eca9d7bfb7b = $(`<div id="html_a87d95c8eb0d3dc8271b0eca9d7bfb7b" style="width: 100.0%; height: 100.0%;">Saudi Arabia - GDP per Capita: 30436.2783034025</div>`)[0];
+                popup_a1ec07c303e225c3404cfa7c5595409b.setContent(html_a87d95c8eb0d3dc8271b0eca9d7bfb7b);
+            
+        
+
+        marker_afbe0e1cf2d4602c20389e3b83b1e1f7.bindPopup(popup_a1ec07c303e225c3404cfa7c5595409b)
+        ;
+
+        
+    
+    
+            var marker_227e2cade115790e92298090839eba1b = L.marker(
+                [14.4750607, -14.4529612],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_bbde5b8358c152386a3e46a6506ca509 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_03186c0003669f7efc7da112f0e2c1e9 = $(`<div id="html_03186c0003669f7efc7da112f0e2c1e9" style="width: 100.0%; height: 100.0%;">Senegal - GDP per Capita: 1598.73599053078</div>`)[0];
+                popup_bbde5b8358c152386a3e46a6506ca509.setContent(html_03186c0003669f7efc7da112f0e2c1e9);
+            
+        
+
+        marker_227e2cade115790e92298090839eba1b.bindPopup(popup_bbde5b8358c152386a3e46a6506ca509)
+        ;
+
+        
+    
+    
+            var marker_7cd0265fd6bc205dec42bf66916f7489 = L.marker(
+                [44.1534121, 20.55144],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_0c2de0346c9158558606ec995349a18b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fb966b474b61aa48368a53dc69e28c0f = $(`<div id="html_fb966b474b61aa48368a53dc69e28c0f" style="width: 100.0%; height: 100.0%;">Serbia - GDP per Capita: 9393.62890629911</div>`)[0];
+                popup_0c2de0346c9158558606ec995349a18b.setContent(html_fb966b474b61aa48368a53dc69e28c0f);
+            
+        
+
+        marker_7cd0265fd6bc205dec42bf66916f7489.bindPopup(popup_0c2de0346c9158558606ec995349a18b)
+        ;
+
+        
+    
+    
+            var marker_a6c38a4f0d535059ad835833b0a198cd = L.marker(
+                [-4.6574977, 55.4540146],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_e0211c5f3ca5dbd70e3f9c614ca9436a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a2a005a022f4ca77c736cad0e41421a5 = $(`<div id="html_a2a005a022f4ca77c736cad0e41421a5" style="width: 100.0%; height: 100.0%;">Seychelles - GDP per Capita: 15874.5400675106</div>`)[0];
+                popup_e0211c5f3ca5dbd70e3f9c614ca9436a.setContent(html_a2a005a022f4ca77c736cad0e41421a5);
+            
+        
+
+        marker_a6c38a4f0d535059ad835833b0a198cd.bindPopup(popup_e0211c5f3ca5dbd70e3f9c614ca9436a)
+        ;
+
+        
+    
+    
+            var marker_cb497dae98cc189b094a37d960125691 = L.marker(
+                [8.6400349, -11.8400269],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_a7d58b2e670e293b21e613484d446d4f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_de97ba3246c96c1dc77be76026cad59b = $(`<div id="html_de97ba3246c96c1dc77be76026cad59b" style="width: 100.0%; height: 100.0%;">Sierra Leone - GDP per Capita: 461.361138294258</div>`)[0];
+                popup_a7d58b2e670e293b21e613484d446d4f.setContent(html_de97ba3246c96c1dc77be76026cad59b);
+            
+        
+
+        marker_cb497dae98cc189b094a37d960125691.bindPopup(popup_a7d58b2e670e293b21e613484d446d4f)
+        ;
+
+        
+    
+    
+            var marker_f7c88ca0ee5da0f5e45a4a72fff11726 = L.marker(
+                [1.357107, 103.8194992],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_993b45a1a24f8364add364526746174c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e10901e16ee194d3fa7eef591472e6f6 = $(`<div id="html_e10901e16ee194d3fa7eef591472e6f6" style="width: 100.0%; height: 100.0%;">Singapore - GDP per Capita: 82807.6490834764</div>`)[0];
+                popup_993b45a1a24f8364add364526746174c.setContent(html_e10901e16ee194d3fa7eef591472e6f6);
+            
+        
+
+        marker_f7c88ca0ee5da0f5e45a4a72fff11726.bindPopup(popup_993b45a1a24f8364add364526746174c)
+        ;
+
+        
+    
+    
+            var marker_f36fccbae77978057609c19726102296 = L.marker(
+                [18.0155138, -63.045102334856175],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_bc114fdd15367ac85cfb469074ef46a8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d97be333ae1768cf1321c725706eb7f3 = $(`<div id="html_d97be333ae1768cf1321c725706eb7f3" style="width: 100.0%; height: 100.0%;">Sint Maarten (Dutch part) - GDP per Capita: 36220.3380075608</div>`)[0];
+                popup_bc114fdd15367ac85cfb469074ef46a8.setContent(html_d97be333ae1768cf1321c725706eb7f3);
+            
+        
+
+        marker_f36fccbae77978057609c19726102296.bindPopup(popup_bc114fdd15367ac85cfb469074ef46a8)
+        ;
+
+        
+    
+    
+            var marker_f5be1c97ad9543bf2f9272b647941d32 = L.marker(
+                [48.7411522, 19.4528646],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_0558186b17179c93e509b56a8d3dfa1c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_53443569ec59a282f951abb35d8d467c = $(`<div id="html_53443569ec59a282f951abb35d8d467c" style="width: 100.0%; height: 100.0%;">Slovak Republic - GDP per Capita: 21258.1141354655</div>`)[0];
+                popup_0558186b17179c93e509b56a8d3dfa1c.setContent(html_53443569ec59a282f951abb35d8d467c);
+            
+        
+
+        marker_f5be1c97ad9543bf2f9272b647941d32.bindPopup(popup_0558186b17179c93e509b56a8d3dfa1c)
+        ;
+
+        
+    
+    
+            var marker_313ae17d45f8b63cbe56b5d2aa8f7501 = L.marker(
+                [46.1199444, 14.8153333],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_600f2e12a27ba55861ae854b07b19a2b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1f1edc5f92796bdbcca083e563e1fcb1 = $(`<div id="html_1f1edc5f92796bdbcca083e563e1fcb1" style="width: 100.0%; height: 100.0%;">Slovenia - GDP per Capita: 29457.40284439</div>`)[0];
+                popup_600f2e12a27ba55861ae854b07b19a2b.setContent(html_1f1edc5f92796bdbcca083e563e1fcb1);
+            
+        
+
+        marker_313ae17d45f8b63cbe56b5d2aa8f7501.bindPopup(popup_600f2e12a27ba55861ae854b07b19a2b)
+        ;
+
+        
+    
+    
+            var marker_050d65bdf7d7485e5caf93500e17e980 = L.marker(
+                [-8.7053941, 159.1070693851845],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_165409a5c40c35f2aa3814ef755f2f4c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ef914b2792239f4b7703cbc5cecdbce0 = $(`<div id="html_ef914b2792239f4b7703cbc5cecdbce0" style="width: 100.0%; height: 100.0%;">Solomon Islands - GDP per Capita: 2203.18965958102</div>`)[0];
+                popup_165409a5c40c35f2aa3814ef755f2f4c.setContent(html_ef914b2792239f4b7703cbc5cecdbce0);
+            
+        
+
+        marker_050d65bdf7d7485e5caf93500e17e980.bindPopup(popup_165409a5c40c35f2aa3814ef755f2f4c)
+        ;
+
+        
+    
+    
+            var marker_929aa20d30f5011a985b376036c93421 = L.marker(
+                [8.3676771, 49.083416],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_99a32d99a0b848c8c65185f55560fd08 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_101de0ad94849623470fa74bb172b79c = $(`<div id="html_101de0ad94849623470fa74bb172b79c" style="width: 100.0%; height: 100.0%;">Somalia - GDP per Capita: 461.775850005151</div>`)[0];
+                popup_99a32d99a0b848c8c65185f55560fd08.setContent(html_101de0ad94849623470fa74bb172b79c);
+            
+        
+
+        marker_929aa20d30f5011a985b376036c93421.bindPopup(popup_99a32d99a0b848c8c65185f55560fd08)
+        ;
+
+        
+    
+    
+            var marker_319d488cb05342295c2166b1eb8134fe = L.marker(
+                [-28.8166236, 24.991639],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_6f516641ca7c501f88d0c94304bcd4d2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0b6632d4bd8d2ed8f60d7361913e097a = $(`<div id="html_0b6632d4bd8d2ed8f60d7361913e097a" style="width: 100.0%; height: 100.0%;">South Africa - GDP per Capita: 6776.48007742932</div>`)[0];
+                popup_6f516641ca7c501f88d0c94304bcd4d2.setContent(html_0b6632d4bd8d2ed8f60d7361913e097a);
+            
+        
+
+        marker_319d488cb05342295c2166b1eb8134fe.bindPopup(popup_6f516641ca7c501f88d0c94304bcd4d2)
+        ;
+
+        
+    
+    
+            var marker_64913695ddcfa4ce05ad011a2fa02e8f = L.marker(
+                [7.8699431, 29.6667897],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_529a4160872267f5dff7e7e92325d3a1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f4007eb133989f3ae44ed5274a6894b8 = $(`<div id="html_f4007eb133989f3ae44ed5274a6894b8" style="width: 100.0%; height: 100.0%;">South Sudan - GDP per Capita: nan</div>`)[0];
+                popup_529a4160872267f5dff7e7e92325d3a1.setContent(html_f4007eb133989f3ae44ed5274a6894b8);
+            
+        
+
+        marker_64913695ddcfa4ce05ad011a2fa02e8f.bindPopup(popup_529a4160872267f5dff7e7e92325d3a1)
+        ;
+
+        
+    
+    
+            var marker_0f01dabbac0883f194467a6a5ce8fb45 = L.marker(
+                [39.3260685, -4.8379791],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_d09b1c0f5c59a9eb0a6d5c37575924d9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d05b8e8e0a71ff644591b5936446c54e = $(`<div id="html_d05b8e8e0a71ff644591b5936446c54e" style="width: 100.0%; height: 100.0%;">Spain - GDP per Capita: 29350.1685214481</div>`)[0];
+                popup_d09b1c0f5c59a9eb0a6d5c37575924d9.setContent(html_d05b8e8e0a71ff644591b5936446c54e);
+            
+        
+
+        marker_0f01dabbac0883f194467a6a5ce8fb45.bindPopup(popup_d09b1c0f5c59a9eb0a6d5c37575924d9)
+        ;
+
+        
+    
+    
+            var marker_c3eaa3bd57cd40d717fceef60d458410 = L.marker(
+                [7.877395849999999, 80.66247852355892],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_fb50481908d521a32a45f97fda136459 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bc73d7449815ee7df3e2ddc6d917c7d9 = $(`<div id="html_bc73d7449815ee7df3e2ddc6d917c7d9" style="width: 100.0%; height: 100.0%;">Sri Lanka - GDP per Capita: 3354.38340757565</div>`)[0];
+                popup_fb50481908d521a32a45f97fda136459.setContent(html_bc73d7449815ee7df3e2ddc6d917c7d9);
+            
+        
+
+        marker_c3eaa3bd57cd40d717fceef60d458410.bindPopup(popup_fb50481908d521a32a45f97fda136459)
+        ;
+
+        
+    
+    
+            var marker_d148f39614a58d4da0f5234b0bf36af6 = L.marker(
+                [17.250512, -62.6725973],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_cd66d7b7f58d10730d3c6ada1e5d742d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eca1dd150d4f81251678aa93d784281f = $(`<div id="html_eca1dd150d4f81251678aa93d784281f" style="width: 100.0%; height: 100.0%;">St. Kitts and Nevis - GDP per Capita: 20176.7475766259</div>`)[0];
+                popup_cd66d7b7f58d10730d3c6ada1e5d742d.setContent(html_eca1dd150d4f81251678aa93d784281f);
+            
+        
+
+        marker_d148f39614a58d4da0f5234b0bf36af6.bindPopup(popup_cd66d7b7f58d10730d3c6ada1e5d742d)
+        ;
+
+        
+    
+    
+            var marker_8abc8931bdeb164b9e99da194e6bc4df = L.marker(
+                [13.90904385, -60.97792414113452],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_5809b612be500dbd4e0250b32fd4992e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c102dba26a07a64964d5db73fbdc4f93 = $(`<div id="html_c102dba26a07a64964d5db73fbdc4f93" style="width: 100.0%; height: 100.0%;">St. Lucia - GDP per Capita: 11481.496719925</div>`)[0];
+                popup_5809b612be500dbd4e0250b32fd4992e.setContent(html_c102dba26a07a64964d5db73fbdc4f93);
+            
+        
+
+        marker_8abc8931bdeb164b9e99da194e6bc4df.bindPopup(popup_5809b612be500dbd4e0250b32fd4992e)
+        ;
+
+        
+    
+    
+            var marker_05903b01237f1740da803580b1a69bb5 = L.marker(
+                [18.0814066, -63.0467131],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_76efbfc023ee0e6628c632ab110a69a6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cb4903cfec28fc1106e670263a804603 = $(`<div id="html_cb4903cfec28fc1106e670263a804603" style="width: 100.0%; height: 100.0%;">St. Martin (French part) - GDP per Capita: nan</div>`)[0];
+                popup_76efbfc023ee0e6628c632ab110a69a6.setContent(html_cb4903cfec28fc1106e670263a804603);
+            
+        
+
+        marker_05903b01237f1740da803580b1a69bb5.bindPopup(popup_76efbfc023ee0e6628c632ab110a69a6)
+        ;
+
+        
+    
+    
+            var marker_add0de2aea0a6ab4abc4c39fb45ccc46 = L.marker(
+                [12.90447, -61.2765569],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_55eb01b150bae70dfc42c59a74992580 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ac5ac1acc7d17bf857c85327cd09c06a = $(`<div id="html_ac5ac1acc7d17bf857c85327cd09c06a" style="width: 100.0%; height: 100.0%;">St. Vincent and the Grenadines - GDP per Capita: 9125.31749650188</div>`)[0];
+                popup_55eb01b150bae70dfc42c59a74992580.setContent(html_ac5ac1acc7d17bf857c85327cd09c06a);
+            
+        
+
+        marker_add0de2aea0a6ab4abc4c39fb45ccc46.bindPopup(popup_55eb01b150bae70dfc42c59a74992580)
+        ;
+
+        
+    
+    
+            var marker_e24e3bb17bd9492a1fdb49faca694848 = L.marker(
+                [14.5844444, 29.4917691],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_9c1b23f521256e6217104c37a01e86d1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_03b22167bf575554c60e092b6ff8b3f1 = $(`<div id="html_03b22167bf575554c60e092b6ff8b3f1" style="width: 100.0%; height: 100.0%;">Sudan - GDP per Capita: 1102.146484375</div>`)[0];
+                popup_9c1b23f521256e6217104c37a01e86d1.setContent(html_03b22167bf575554c60e092b6ff8b3f1);
+            
+        
+
+        marker_e24e3bb17bd9492a1fdb49faca694848.bindPopup(popup_9c1b23f521256e6217104c37a01e86d1)
+        ;
+
+        
+    
+    
+            var marker_7ecafe370dad7ed4719a03a241b0adba = L.marker(
+                [4.1413025, -56.0771187],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_a7758f4f7caed8f0cf7512ba2417f884 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d3c8ea12235fa7af3f3202794fc3a07a = $(`<div id="html_d3c8ea12235fa7af3f3202794fc3a07a" style="width: 100.0%; height: 100.0%;">Suriname - GDP per Capita: 5858.2860595119</div>`)[0];
+                popup_a7758f4f7caed8f0cf7512ba2417f884.setContent(html_d3c8ea12235fa7af3f3202794fc3a07a);
+            
+        
+
+        marker_7ecafe370dad7ed4719a03a241b0adba.bindPopup(popup_a7758f4f7caed8f0cf7512ba2417f884)
+        ;
+
+        
+    
+    
+            var marker_50c02c81ad72e768d04f5c5e24952b50 = L.marker(
+                [59.6749712, 14.5208584],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_59eacc9c6a02c2a5b45894a45f3425b5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3da6c3c2a89863d53c2fcdad2aff0175 = $(`<div id="html_3da6c3c2a89863d53c2fcdad2aff0175" style="width: 100.0%; height: 100.0%;">Sweden - GDP per Capita: 55873.2208108977</div>`)[0];
+                popup_59eacc9c6a02c2a5b45894a45f3425b5.setContent(html_3da6c3c2a89863d53c2fcdad2aff0175);
+            
+        
+
+        marker_50c02c81ad72e768d04f5c5e24952b50.bindPopup(popup_59eacc9c6a02c2a5b45894a45f3425b5)
+        ;
+
+        
+    
+    
+            var marker_037a2a0ae80bf34284ff56231c95f144 = L.marker(
+                [46.7985624, 8.2319736],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_a623ff83bbbd598535dd3d585b5dd3ce = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a98b4c9bde0b3b8a1ac4f8657718a548 = $(`<div id="html_a98b4c9bde0b3b8a1ac4f8657718a548" style="width: 100.0%; height: 100.0%;">Switzerland - GDP per Capita: 92101.4697414382</div>`)[0];
+                popup_a623ff83bbbd598535dd3d585b5dd3ce.setContent(html_a98b4c9bde0b3b8a1ac4f8657718a548);
+            
+        
+
+        marker_037a2a0ae80bf34284ff56231c95f144.bindPopup(popup_a623ff83bbbd598535dd3d585b5dd3ce)
+        ;
+
+        
+    
+    
+            var marker_a9f9a19a274726bceb2d0827dc29948b = L.marker(
+                [34.6401861, 39.0494106],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_c779e98e9429a645c5bbde5c3820a201 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_74f807d19ccd6910b116d53426a69904 = $(`<div id="html_74f807d19ccd6910b116d53426a69904" style="width: 100.0%; height: 100.0%;">Syrian Arab Republic - GDP per Capita: nan</div>`)[0];
+                popup_c779e98e9429a645c5bbde5c3820a201.setContent(html_74f807d19ccd6910b116d53426a69904);
+            
+        
+
+        marker_a9f9a19a274726bceb2d0827dc29948b.bindPopup(popup_c779e98e9429a645c5bbde5c3820a201)
+        ;
+
+        
+    
+    
+            var marker_97f843d13f4681a31432e1d1d742f3ad = L.marker(
+                [38.6281733, 70.8156541],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_ef947c1746b3fa2dedc840e62bad7872 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_af69df3c13723477546012fd3c76031b = $(`<div id="html_af69df3c13723477546012fd3c76031b" style="width: 100.0%; height: 100.0%;">Tajikistan - GDP per Capita: 1054.18948358818</div>`)[0];
+                popup_ef947c1746b3fa2dedc840e62bad7872.setContent(html_af69df3c13723477546012fd3c76031b);
+            
+        
+
+        marker_97f843d13f4681a31432e1d1d742f3ad.bindPopup(popup_ef947c1746b3fa2dedc840e62bad7872)
+        ;
+
+        
+    
+    
+            var marker_c2f2b94519724a067476002ef53c444c = L.marker(
+                [-6.5247123, 35.7878438],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_86289871d5dd56c4a407a8d687808385 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6a9fc73a0d3630948fb3b5093539b80f = $(`<div id="html_6a9fc73a0d3630948fb3b5093539b80f" style="width: 100.0%; height: 100.0%;">Tanzania - GDP per Capita: 1192.40380859375</div>`)[0];
+                popup_86289871d5dd56c4a407a8d687808385.setContent(html_6a9fc73a0d3630948fb3b5093539b80f);
+            
+        
+
+        marker_c2f2b94519724a067476002ef53c444c.bindPopup(popup_86289871d5dd56c4a407a8d687808385)
+        ;
+
+        
+    
+    
+            var marker_fab368a38bfe11163574d73d1192343e = L.marker(
+                [14.8971921, 100.83273],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_70b146db9c655d631c0c3962f9375c0a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4e4ef54e69dcd8054d71fdf3e8524d85 = $(`<div id="html_4e4ef54e69dcd8054d71fdf3e8524d85" style="width: 100.0%; height: 100.0%;">Thailand - GDP per Capita: 6908.80211929543</div>`)[0];
+                popup_70b146db9c655d631c0c3962f9375c0a.setContent(html_4e4ef54e69dcd8054d71fdf3e8524d85);
+            
+        
+
+        marker_fab368a38bfe11163574d73d1192343e.bindPopup(popup_70b146db9c655d631c0c3962f9375c0a)
+        ;
+
+        
+    
+    
+            var marker_f2155e7d7d16df750f0a111415090c55 = L.marker(
+                [-8.7443169, 126.063482],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_3e993a32d39216a1264d96fbe545e6ff = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ecf259beef7ce861adfee9f1a882e015 = $(`<div id="html_ecf259beef7ce861adfee9f1a882e015" style="width: 100.0%; height: 100.0%;">Timor-Leste - GDP per Capita: 2358.4090544008</div>`)[0];
+                popup_3e993a32d39216a1264d96fbe545e6ff.setContent(html_ecf259beef7ce861adfee9f1a882e015);
+            
+        
+
+        marker_f2155e7d7d16df750f0a111415090c55.bindPopup(popup_3e993a32d39216a1264d96fbe545e6ff)
+        ;
+
+        
+    
+    
+            var marker_1c57f5e5c3f43a3d0c1bc419b9427820 = L.marker(
+                [8.7800265, 1.0199765],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_99f433de9b176222a40f69186bc7e5ba = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_72083a958b5a6fdd6d49668011733467 = $(`<div id="html_72083a958b5a6fdd6d49668011733467" style="width: 100.0%; height: 100.0%;">Togo - GDP per Capita: 918.376755793481</div>`)[0];
+                popup_99f433de9b176222a40f69186bc7e5ba.setContent(html_72083a958b5a6fdd6d49668011733467);
+            
+        
+
+        marker_1c57f5e5c3f43a3d0c1bc419b9427820.bindPopup(popup_99f433de9b176222a40f69186bc7e5ba)
+        ;
+
+        
+    
+    
+            var marker_a13c919ec95215ac865c0b6d040e1096 = L.marker(
+                [-19.9160819, -175.202642],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_a9b39bd16aa9ee94c5a877638a768b9f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_357d7d0186985ccbd8ee5340629d0f8d = $(`<div id="html_357d7d0186985ccbd8ee5340629d0f8d" style="width: 100.0%; height: 100.0%;">Tonga - GDP per Capita: nan</div>`)[0];
+                popup_a9b39bd16aa9ee94c5a877638a768b9f.setContent(html_357d7d0186985ccbd8ee5340629d0f8d);
+            
+        
+
+        marker_a13c919ec95215ac865c0b6d040e1096.bindPopup(popup_a9b39bd16aa9ee94c5a877638a768b9f)
+        ;
+
+        
+    
+    
+            var marker_0c406b2859f21cd8e000b73452f5f1f3 = L.marker(
+                [10.7466905, -61.0840075],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_e49e32b2fda463ba963269e88cc2f650 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2be366054a2f0cfa1b885364f6774f84 = $(`<div id="html_2be366054a2f0cfa1b885364f6774f84" style="width: 100.0%; height: 100.0%;">Trinidad and Tobago - GDP per Capita: 18222.2603252218</div>`)[0];
+                popup_e49e32b2fda463ba963269e88cc2f650.setContent(html_2be366054a2f0cfa1b885364f6774f84);
+            
+        
+
+        marker_0c406b2859f21cd8e000b73452f5f1f3.bindPopup(popup_e49e32b2fda463ba963269e88cc2f650)
+        ;
+
+        
+    
+    
+            var marker_08c56dcc4d73d8a5a9eb529e36db2a99 = L.marker(
+                [33.8439408, 9.400138],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_eadd4143842e89bd67850322aac6a006 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_efe96ea2ea0f50bd5bfe2f62d20c48cc = $(`<div id="html_efe96ea2ea0f50bd5bfe2f62d20c48cc" style="width: 100.0%; height: 100.0%;">Tunisia - GDP per Capita: 3776.66777934015</div>`)[0];
+                popup_eadd4143842e89bd67850322aac6a006.setContent(html_efe96ea2ea0f50bd5bfe2f62d20c48cc);
+            
+        
+
+        marker_08c56dcc4d73d8a5a9eb529e36db2a99.bindPopup(popup_eadd4143842e89bd67850322aac6a006)
+        ;
+
+        
+    
+    
+            var marker_63a5b0889a7d037815ba9dc625d862b4 = L.marker(
+                [38.9597594, 34.9249653],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_9681db9c7a06b1ed22bc93dff019c6b9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0f1190c44bfedbe118e0005b8916d97c = $(`<div id="html_0f1190c44bfedbe118e0005b8916d97c" style="width: 100.0%; height: 100.0%;">Turkiye - GDP per Capita: 10616.0610448133</div>`)[0];
+                popup_9681db9c7a06b1ed22bc93dff019c6b9.setContent(html_0f1190c44bfedbe118e0005b8916d97c);
+            
+        
+
+        marker_63a5b0889a7d037815ba9dc625d862b4.bindPopup(popup_9681db9c7a06b1ed22bc93dff019c6b9)
+        ;
+
+        
+    
+    
+            var marker_c6b8df281022bfe2a2ae019ab9d7bb66 = L.marker(
+                [39.3763807, 59.3924609],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_2c7f09157ba42cb80e83f3e7662c2058 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c90cee54f31d33eb327485bae9733a1b = $(`<div id="html_c90cee54f31d33eb327485bae9733a1b" style="width: 100.0%; height: 100.0%;">Turkmenistan - GDP per Capita: nan</div>`)[0];
+                popup_2c7f09157ba42cb80e83f3e7662c2058.setContent(html_c90cee54f31d33eb327485bae9733a1b);
+            
+        
+
+        marker_c6b8df281022bfe2a2ae019ab9d7bb66.bindPopup(popup_2c7f09157ba42cb80e83f3e7662c2058)
+        ;
+
+        
+    
+    
+            var marker_7e8959eb4af88d339db430e342d13a64 = L.marker(
+                [21.721746, -71.5527809],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_2aae2549a17ae9532c3ad092577e63b7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_251043ced22604dfc7634acec5251f2c = $(`<div id="html_251043ced22604dfc7634acec5251f2c" style="width: 100.0%; height: 100.0%;">Turks and Caicos Islands - GDP per Capita: 24917.595805527</div>`)[0];
+                popup_2aae2549a17ae9532c3ad092577e63b7.setContent(html_251043ced22604dfc7634acec5251f2c);
+            
+        
+
+        marker_7e8959eb4af88d339db430e342d13a64.bindPopup(popup_2aae2549a17ae9532c3ad092577e63b7)
+        ;
+
+        
+    
+    
+            var marker_47064adc28694da12b2b2f2339133a66 = L.marker(
+                [-8.6405212, 179.1582918181797],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_aabfe52fe6ffcaaa791fb0928115e8e3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_736fbe8bd7ddd06dad2857efaeb28f13 = $(`<div id="html_736fbe8bd7ddd06dad2857efaeb28f13" style="width: 100.0%; height: 100.0%;">Tuvalu - GDP per Capita: 5334.98860491543</div>`)[0];
+                popup_aabfe52fe6ffcaaa791fb0928115e8e3.setContent(html_736fbe8bd7ddd06dad2857efaeb28f13);
+            
+        
+
+        marker_47064adc28694da12b2b2f2339133a66.bindPopup(popup_aabfe52fe6ffcaaa791fb0928115e8e3)
+        ;
+
+        
+    
+    
+            var marker_a48d97a11583ad7b6eab8747a5a02fe6 = L.marker(
+                [1.5333554, 32.2166578],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_682abbc279fd20a47d7eabb24d510549 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a6cd8a1e8b80ebb1eae3867745399f13 = $(`<div id="html_a6cd8a1e8b80ebb1eae3867745399f13" style="width: 100.0%; height: 100.0%;">Uganda - GDP per Capita: 964.224385224431</div>`)[0];
+                popup_682abbc279fd20a47d7eabb24d510549.setContent(html_a6cd8a1e8b80ebb1eae3867745399f13);
+            
+        
+
+        marker_a48d97a11583ad7b6eab8747a5a02fe6.bindPopup(popup_682abbc279fd20a47d7eabb24d510549)
+        ;
+
+        
+    
+    
+            var marker_78d85f5f5937195228c2592afedb9447 = L.marker(
+                [49.4871968, 31.2718321],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_2787ed42a83e95eab12aef6b3084d39e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0ceb276eed3112a923d099dddf0c0e49 = $(`<div id="html_0ceb276eed3112a923d099dddf0c0e49" style="width: 100.0%; height: 100.0%;">Ukraine - GDP per Capita: 4533.9755859375</div>`)[0];
+                popup_2787ed42a83e95eab12aef6b3084d39e.setContent(html_0ceb276eed3112a923d099dddf0c0e49);
+            
+        
+
+        marker_78d85f5f5937195228c2592afedb9447.bindPopup(popup_2787ed42a83e95eab12aef6b3084d39e)
+        ;
+
+        
+    
+    
+            var marker_00649ce766d2e21a16e7844c7686588c = L.marker(
+                [24.0002488, 53.9994829],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_b7a8f5ef5ad31f4c75f279a5e6629ae6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c81179645d6e9cd2be99a7dbaa5b2f82 = $(`<div id="html_c81179645d6e9cd2be99a7dbaa5b2f82" style="width: 100.0%; height: 100.0%;">United Arab Emirates - GDP per Capita: 53757.8632508308</div>`)[0];
+                popup_b7a8f5ef5ad31f4c75f279a5e6629ae6.setContent(html_c81179645d6e9cd2be99a7dbaa5b2f82);
+            
+        
+
+        marker_00649ce766d2e21a16e7844c7686588c.bindPopup(popup_b7a8f5ef5ad31f4c75f279a5e6629ae6)
+        ;
+
+        
+    
+    
+            var marker_02238407c015749c4664074dce949624 = L.marker(
+                [54.7023545, -3.2765753],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_259dd96f7c1cb56ed8d2236eb1e8ece7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_53630eabce56669298ac2ca52491cf2e = $(`<div id="html_53630eabce56669298ac2ca52491cf2e" style="width: 100.0%; height: 100.0%;">United Kingdom - GDP per Capita: 45850.4261222629</div>`)[0];
+                popup_259dd96f7c1cb56ed8d2236eb1e8ece7.setContent(html_53630eabce56669298ac2ca52491cf2e);
+            
+        
+
+        marker_02238407c015749c4664074dce949624.bindPopup(popup_259dd96f7c1cb56ed8d2236eb1e8ece7)
+        ;
+
+        
+    
+    
+            var marker_31f353f5cf44984bf5a66d557a243fc8 = L.marker(
+                [39.7837304, -100.445882],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_c4fb2146d8650a1c067d9cf293bca12d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_24a6c425ae071f603ea3b3d6562045e5 = $(`<div id="html_24a6c425ae071f603ea3b3d6562045e5" style="width: 100.0%; height: 100.0%;">United States - GDP per Capita: 76398.5917422054</div>`)[0];
+                popup_c4fb2146d8650a1c067d9cf293bca12d.setContent(html_24a6c425ae071f603ea3b3d6562045e5);
+            
+        
+
+        marker_31f353f5cf44984bf5a66d557a243fc8.bindPopup(popup_c4fb2146d8650a1c067d9cf293bca12d)
+        ;
+
+        
+    
+    
+            var marker_5f7a4c4e36c2b4a76196fd43a68e49b4 = L.marker(
+                [-32.8755548, -56.0201525],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_29b5846cbd8dc85455a426ea822ea328 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fad6096f388a7a4b1da80675afb78f5d = $(`<div id="html_fad6096f388a7a4b1da80675afb78f5d" style="width: 100.0%; height: 100.0%;">Uruguay - GDP per Capita: 20795.0423535553</div>`)[0];
+                popup_29b5846cbd8dc85455a426ea822ea328.setContent(html_fad6096f388a7a4b1da80675afb78f5d);
+            
+        
+
+        marker_5f7a4c4e36c2b4a76196fd43a68e49b4.bindPopup(popup_29b5846cbd8dc85455a426ea822ea328)
+        ;
+
+        
+    
+    
+            var marker_3cf156995f411129f1bb2fb3c0424549 = L.marker(
+                [41.32373, 63.9528098],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_e364fb35bab5a6ef939f5759c579060d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b381f413b0680c0609e4d8febb7f6f23 = $(`<div id="html_b381f413b0680c0609e4d8febb7f6f23" style="width: 100.0%; height: 100.0%;">Uzbekistan - GDP per Capita: 2255.15115489364</div>`)[0];
+                popup_e364fb35bab5a6ef939f5759c579060d.setContent(html_b381f413b0680c0609e4d8febb7f6f23);
+            
+        
+
+        marker_3cf156995f411129f1bb2fb3c0424549.bindPopup(popup_e364fb35bab5a6ef939f5759c579060d)
+        ;
+
+        
+    
+    
+            var marker_e01f80c7d31dd72e09947d7d0002bce9 = L.marker(
+                [-16.5255069, 168.1069154],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_d1011b18e0bf7c5ba415cd55caee82a2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_702abb02edaef69a24cba396b77d1162 = $(`<div id="html_702abb02edaef69a24cba396b77d1162" style="width: 100.0%; height: 100.0%;">Vanuatu - GDP per Capita: 3010.29217286159</div>`)[0];
+                popup_d1011b18e0bf7c5ba415cd55caee82a2.setContent(html_702abb02edaef69a24cba396b77d1162);
+            
+        
+
+        marker_e01f80c7d31dd72e09947d7d0002bce9.bindPopup(popup_d1011b18e0bf7c5ba415cd55caee82a2)
+        ;
+
+        
+    
+    
+            var marker_08dc572e78eccf0f634441ba58c2d29e = L.marker(
+                [-36.8149776, -73.0730052],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_a2555509a15ae33b2950c0f7028a9043 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cd1e3e05322fdf1e1d77cd9f0f66698d = $(`<div id="html_cd1e3e05322fdf1e1d77cd9f0f66698d" style="width: 100.0%; height: 100.0%;">Venezuela, RB - GDP per Capita: nan</div>`)[0];
+                popup_a2555509a15ae33b2950c0f7028a9043.setContent(html_cd1e3e05322fdf1e1d77cd9f0f66698d);
+            
+        
+
+        marker_08dc572e78eccf0f634441ba58c2d29e.bindPopup(popup_a2555509a15ae33b2950c0f7028a9043)
+        ;
+
+        
+    
+    
+            var marker_7b3a423f829ca84e54f77db06cc177e5 = L.marker(
+                [15.9266657, 107.9650855],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_b8fa05f1d8602d5a783c869f0754b01a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5f6ecb90a900290be0d502219ad26acc = $(`<div id="html_5f6ecb90a900290be0d502219ad26acc" style="width: 100.0%; height: 100.0%;">Vietnam - GDP per Capita: 4163.5143004093</div>`)[0];
+                popup_b8fa05f1d8602d5a783c869f0754b01a.setContent(html_5f6ecb90a900290be0d502219ad26acc);
+            
+        
+
+        marker_7b3a423f829ca84e54f77db06cc177e5.bindPopup(popup_b8fa05f1d8602d5a783c869f0754b01a)
+        ;
+
+        
+    
+    
+            var marker_c3736f00112e74610a3c8c1f631036ef = L.marker(
+                [17.7289564, -64.75901597858353],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_d7b0662f22d10b7acc2b5b5399f80c2b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3221fbab3e4f54f151bb907c438fc07d = $(`<div id="html_3221fbab3e4f54f151bb907c438fc07d" style="width: 100.0%; height: 100.0%;">Virgin Islands (U.S.) - GDP per Capita: nan</div>`)[0];
+                popup_d7b0662f22d10b7acc2b5b5399f80c2b.setContent(html_3221fbab3e4f54f151bb907c438fc07d);
+            
+        
+
+        marker_c3736f00112e74610a3c8c1f631036ef.bindPopup(popup_d7b0662f22d10b7acc2b5b5399f80c2b)
+        ;
+
+        
+    
+    
+            var marker_a79e9b1764766fecc9ef96fe301dbbe3 = L.marker(
+                [31.9049661, 35.2023413],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_da27a153d26ae1f1079034edb1bf08cc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0dd849b6071036515a32550876c55a7e = $(`<div id="html_0dd849b6071036515a32550876c55a7e" style="width: 100.0%; height: 100.0%;">West Bank and Gaza - GDP per Capita: 3789.32796575153</div>`)[0];
+                popup_da27a153d26ae1f1079034edb1bf08cc.setContent(html_0dd849b6071036515a32550876c55a7e);
+            
+        
+
+        marker_a79e9b1764766fecc9ef96fe301dbbe3.bindPopup(popup_da27a153d26ae1f1079034edb1bf08cc)
+        ;
+
+        
+    
+    
+            var marker_3f6d597df72720a0e37161341db3f398 = L.marker(
+                [-14.5189121, 27.5589884],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_6b6c6199cbc61f5f41dbfd5df9126246 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_14c6fac69020510cbfe989ddf5b847b1 = $(`<div id="html_14c6fac69020510cbfe989ddf5b847b1" style="width: 100.0%; height: 100.0%;">Zambia - GDP per Capita: 1487.90776431025</div>`)[0];
+                popup_6b6c6199cbc61f5f41dbfd5df9126246.setContent(html_14c6fac69020510cbfe989ddf5b847b1);
+            
+        
+
+        marker_3f6d597df72720a0e37161341db3f398.bindPopup(popup_6b6c6199cbc61f5f41dbfd5df9126246)
+        ;
+
+        
+    
+    
+            var marker_882f9bf356db6b518c146bbc411c965f = L.marker(
+                [-18.4554963, 29.7468414],
+                {}
+            ).addTo(map_603ed10c2b35c12c30c36ff5d339dae0);
+        
+    
+        var popup_497ea0e537da121ea9c8b6b6d1af2b1f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_19bf8d7a6a0a68488a4c0b446364c73f = $(`<div id="html_19bf8d7a6a0a68488a4c0b446364c73f" style="width: 100.0%; height: 100.0%;">Zimbabwe - GDP per Capita: 1266.99603069032</div>`)[0];
+                popup_497ea0e537da121ea9c8b6b6d1af2b1f.setContent(html_19bf8d7a6a0a68488a4c0b446364c73f);
+            
+        
+
+        marker_882f9bf356db6b518c146bbc411c965f.bindPopup(popup_497ea0e537da121ea9c8b6b6d1af2b1f)
+        ;
+
+        
+    
+</script>
+</html>
